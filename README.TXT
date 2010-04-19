@@ -29,3 +29,11 @@ mvn exec:java -Dexec.mainClass="net.timandersen.App" -Dexec.classpathScope=test 
 JRat documentation for alternative handlers
 -------------------------------------------
 http://wiki.shiftone.org/index.php?title=JRat_Handlers
+
+
+###########################################
+Alternative ways to run JRat is to build
+executable jar and include JRat at runtime
+-------------------------------------------
+    mvn package
+    java -javaagent:shiftone-jrat-1-alpha2.jar -Djrat.timing.nanoseconds=true -Djrat.factory="org.shiftone.jrat.provider.tree.TreeMethodHandlerFactory" -jar target/jrat-examples.jar

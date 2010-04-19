@@ -26,4 +26,30 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.3</version>
+                <configuration>
+                    <archive>
+                        <index>true</index>
+                        <manifest>
+                            <mainClass>net.timandersen.App</mainClass>
+                            <packageName>net.timandersen</packageName>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                        </manifest>
+                        <manifestEntries>
+                            <Class-Path>.. jrat-examples.jar</Class-Path>
+                        </manifestEntries>
+                    </archive>
+                    <finalName>jrat-examples</finalName>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
 </project>
