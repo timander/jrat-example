@@ -17,14 +17,21 @@ import java.util.List;
 
 public class DomParserExample {
 
-    //No generics
-    private List myEmpls;
+    private List<Employee> employees;
     private Document dom;
-
 
     public DomParserExample() {
         //create a list to hold the employee objects
-        myEmpls = new ArrayList();
+        employees = new ArrayList<Employee>();
+    }
+
+
+    public static void main(String[] args) {
+        //create an instance
+        DomParserExample dpe = new DomParserExample();
+
+        //call run example
+        dpe.runExample();
     }
 
     public void runExample() {
@@ -94,7 +101,7 @@ public class DomParserExample {
                 Employee e = getEmployee(el);
 
                 //add it to list
-                myEmpls.add(e);
+                employees.add(e);
             }
         }
     }
@@ -144,21 +151,17 @@ public class DomParserExample {
     /** Iterate through the list and print the content to console */
     private void printData() {
 
-        System.out.println("No of Employees '" + myEmpls.size() + "'.");
+        System.out.println("No of Employees '" + employees.size() + "'.");
 
-        Iterator it = myEmpls.iterator();
+        Iterator it = employees.iterator();
         while (it.hasNext()) {
             System.out.println(it.next().toString());
         }
     }
 
 
-    public static void main(String[] args) {
-        //create an instance
-        DomParserExample dpe = new DomParserExample();
-
-        //call run example
-        dpe.runExample();
+    public List<Employee> getEmployees() {
+        return employees;
     }
 
 }

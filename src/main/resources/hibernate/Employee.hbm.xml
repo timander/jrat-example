@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="net.timandersen.Employee" table="Employees" lazy="false">
+
+        <id name="employeeId" column="EmployeeId" access="field" unsaved-value="-1">
+            <generator class="native"/>
+        </id>
+
+        <property name="name" column="Name" type="string" not-null="true" length="50" access="field"/>
+        <property name="type" column="Type" type="string" not-null="true" length="50" access="field"/>
+        <property name="age" column="Age" type="integer" not-null="true" length="50" access="field"/>
+        <property name="employeeNumber" column="EmployeeNumber" type="integer" not-null="true" length="50" access="field"/>
+
+    </class>
+</hibernate-mapping>

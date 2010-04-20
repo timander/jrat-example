@@ -16,16 +16,22 @@ import java.util.List;
 
 public class SAXParserExample extends DefaultHandler {
 
-    List myEmpls;
+    private List<Employee> employees;
 
     private String tempVal;
 
     //to maintain context
+
     private Employee tempEmp;
 
-
     public SAXParserExample() {
-        myEmpls = new ArrayList();
+        employees = new ArrayList<Employee>();
+    }
+
+
+    public static void main(String[] args) {
+        SAXParserExample spe = new SAXParserExample();
+        spe.runExample();
     }
 
     public void runExample() {
@@ -73,9 +79,9 @@ public class SAXParserExample extends DefaultHandler {
     /** Iterate through the list and print the contents */
     private void printData() {
 
-        System.out.println("No of Employees '" + myEmpls.size() + "'.");
+        System.out.println("No of Employees '" + employees.size() + "'.");
 
-        Iterator it = myEmpls.iterator();
+        Iterator it = employees.iterator();
         while (it.hasNext()) {
             System.out.println(it.next().toString());
         }
@@ -100,26 +106,25 @@ public class SAXParserExample extends DefaultHandler {
 
     public void endElement(String uri, String localName, String qName) throws SAXException {
 
-        if (qName.equalsIgnoreCase("Employee")) {
+        if ("Employee".equalsIgnoreCase(qName)) {
             //add it to the list
-            myEmpls.add(tempEmp);
+            employees.add(tempEmp);
 
         }
-        else if (qName.equalsIgnoreCase("Name")) {
+        else if ("Name".equalsIgnoreCase(qName)) {
             tempEmp.setName(tempVal);
         }
-        else if (qName.equalsIgnoreCase("Id")) {
-            tempEmp.setId(Integer.parseInt(tempVal));
+        else if ("Id".equalsIgnoreCase(qName)) {
+            tempEmp.setEmployeeNumber(Integer.parseInt(tempVal));
         }
-        else if (qName.equalsIgnoreCase("Age")) {
+        else if ("Age".equalsIgnoreCase(qName)) {
             tempEmp.setAge(Integer.parseInt(tempVal));
         }
 
     }
 
-    public static void main(String[] args) {
-        SAXParserExample spe = new SAXParserExample();
-        spe.runExample();
+    public List<Employee> getEmployees() {
+        return new ArrayList<Employee>(employees);
     }
 
 }

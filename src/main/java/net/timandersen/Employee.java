@@ -2,11 +2,13 @@ package net.timandersen;
 
 public class Employee {
 
+    private int employeeId = -1;
+
     private String name;
 
     private int age;
 
-    private int id;
+    private int employeeNumber;
 
     private String type;
 
@@ -14,10 +16,10 @@ public class Employee {
 
     }
 
-    public Employee(String name, int id, int age, String type) {
+    public Employee(String name, int employeeNumber, int age, String type) {
         this.name = name;
         this.age = age;
-        this.id = id;
+        this.employeeNumber = employeeNumber;
         this.type = type;
 
     }
@@ -29,12 +31,12 @@ public class Employee {
         this.age = age;
     }
 
-    public int getId() {
-        return id;
+    public int getEmployeeNumber() {
+        return employeeNumber;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setEmployeeNumber(int employeeNumber) {
+        this.employeeNumber = employeeNumber;
     }
 
     public String getName() {
@@ -62,7 +64,7 @@ public class Employee {
         sb.append(", ");
         sb.append("Type:" + getType());
         sb.append(", ");
-        sb.append("Id:" + getId());
+        sb.append("Id:" + getEmployeeNumber());
         sb.append(", ");
         sb.append("Age:" + getAge());
         sb.append(".");
