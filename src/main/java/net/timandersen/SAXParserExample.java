@@ -29,12 +29,10 @@ public class SAXParserExample {
         try {
             InputStream inputStream = getClass().getClassLoader().getResourceAsStream("employees.xml");
             SAXParserFactory.newInstance().newSAXParser().parse(inputStream, delegate);
-            if (inputStream != null) {
-                inputStream.close();
-            }
+            if (inputStream != null) inputStream.close();
         }
-        catch (Exception se) {
-            throw new RuntimeException(se);
+        catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
@@ -48,7 +46,6 @@ public class SAXParserExample {
     public List<Employee> getEmployees() {
         return new ArrayList<Employee>(employees);
     }
-
 
     private class SaxHandler extends DefaultHandler {
 
