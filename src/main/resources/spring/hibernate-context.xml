@@ -36,4 +36,8 @@
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
+    <bean id="podcastRepository" class="net.timandersen.PodcastRepository">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
 </beans>

@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:yt="http://gdata.youtube.com/schemas/2007" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+   <channel>
+      <title>The Java Posse</title>
+      <description>News, Interviews and more on the Java Language</description>
+      <link>http://pipes.yahoo.com/pipes/pipe.info?_id=oNnUn0EZ3RGZ6TmZ2h2EvQ</link>
+      <pubDate>Thu, 22 Apr 2010 11:18:31 -0700</pubDate>
+      <generator>http://pipes.yahoo.com/pipes/</generator>
+      <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/javaposse" /><feedburner:info uri="javaposse" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><media:copyright>Copyright - Creative Commons</media:copyright><media:thumbnail url="http://libsyn.com/podcasts/dickwall/images/weblogo.jpg" /><media:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</media:keywords><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology/Tech News</media:category><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology/Tech News</media:category><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology/Tech News</media:category><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology/Tech News</media:category><itunes:owner><itunes:email>javaposse@gmail.com</itunes:email><itunes:name>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:name></itunes:owner><itunes:author>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="http://libsyn.com/podcasts/dickwall/images/weblogo.jpg" /><itunes:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</itunes:keywords><itunes:subtitle>Java News, Interviews and more with Dick Wall, Tor Norbye, Joe Nuxoll and Carl Quinn</itunes:subtitle><itunes:summary>Java News, Interviews and more with Dick Wall, Tor Norbye, Joe Nuxoll and Carl Quinn</itunes:summary><itunes:category text="Technology"><itunes:category text="Tech News" /></itunes:category><itunes:category text="Technology"><itunes:category text="Tech News" /></itunes:category><itunes:category text="Technology"><itunes:category text="Tech News" /></itunes:category><itunes:category text="Technology"><itunes:category text="Tech News" /></itunes:category><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site, subject to copyright and fair use.</feedburner:browserFriendly><item>
+         <title>Java Posse #302 - Roundup '10 - OO/Functional Hybrids</title>
+         <link>http://javaposse.com/index.php?post_id=604559#</link>
+         <description>&lt;div&gt;
+&lt;h2 id="r98d0"&gt;Roundup '10 - Functional/OO hybrids and the Closing Session&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div&gt;Fully formatted shownotes can always be found at &lt;a rel="nofollow" id="r98d3" title="http://javaposse.com" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;Recorded at the Java Posse Roundup 2010 in Crested Butte, CO. This podcasts consists of two sessions, a shorter 30 minute discussion about Object Oriented/Functional hybrid language adoption, and the closing session where almost all of the attendees introduce themselves (a handful had already left for flights).&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Scala &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="rkg6" title="http://scala-lang.org" target="_blank" href="http://scala-lang.org/"&gt;http://scala-lang.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;BASE &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="jtyp" title="http://svscala.ning.com" target="_blank" href="http://svscala.ning.com/"&gt;http://svscala.ning.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;F# &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://research.microsoft.com/en-us/um/cambridge/projects/fsharp/"&gt;http://research.microsoft.com/en-us/um/cambridge/projects/fsharp/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Clojure &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://clojure.org/"&gt;http://clojure.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;C# &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://msdn.microsoft.com/en-us/vcsharp/aa336809.aspx"&gt;http://msdn.microsoft.com/en-us/vcsharp/aa336809.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Closures in Java 7 &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://javac.info/"&gt;http://javac.info/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Javascript &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.javascript.com/"&gt;http://www.javascript.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Function literals &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://en.wikipedia.org/wiki/First-class_function"&gt;http://en.wikipedia.org/wiki/First-class_function&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Immutability &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://en.wikipedia.org/wiki/Immutable_object"&gt;http://en.wikipedia.org/wiki/Immutable_object&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ruby and Rails &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://rubyonrails.org/"&gt;http://rubyonrails.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scaladoc &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.scala-lang.org/archives/beta-api/index.html"&gt;http://www.scala-lang.org/archives/beta-api/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Introductions to Scala &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.scala-lang.org/node/104"&gt;http://www.scala-lang.org/node/104&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://jonasboner.com/2008/10/01/real-world-scala-introduction.html"&gt;http://jonasboner.com/2008/10/01/real-world-scala-introduction.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scala books &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.scala-lang.org/node/959"&gt;http://www.scala-lang.org/node/959&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Lift website &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://liftweb.net/"&gt;http://liftweb.net/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scala for the Busy Java developer - Ted Neward &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.ibm.com/developerworks/java/library/j-scala01228.html"&gt;http://www.ibm.com/developerworks/java/library/j-scala01228.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scala Swing &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.scala-lang.org/sid/8"&gt;http://www.scala-lang.org/sid/8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Swing in Clojure &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://stuartsierra.com/2010/01/06/heating-up-clojure-swing"&gt;http://stuartsierra.com/2010/01/06/heating-up-clojure-swing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Actors for maintaining state &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://lambda-the-ultimate.org/node/3108"&gt;http://lambda-the-ultimate.org/node/3108&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The Definitive Guide to JavaScript / JavaScript the Good Parts &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.amazon.com/exec/obidos/ASIN/0596000480/equal-20"&gt;http://www.amazon.com/exec/obidos/ASIN/0596000480/equal-20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://ajaxian.com/archives/book-review-%E2%80%9Cjavascript-the-good-parts%E2%80%9D-by-crockford"&gt;http://ajaxian.com/archives/book-review-&amp;ldquo;javascript-the-good-parts&amp;rdquo;-by-crockford&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Functional Koans &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://github.com/relevance/functional-koans/tree/scala"&gt;http://github.com/relevance/functional-koans/tree/scala&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ruby Koans &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://github.com/edgecase/ruby_koans"&gt;http://github.com/edgecase/ruby_koans&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cay Horstmann Functional Programming slides &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.horstmann.com/sjsu/cs152/schedule.html"&gt;http://www.horstmann.com/sjsu/cs152/schedule.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Javabin scala-training-slides and scala-training-code on github &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://github.com/javabin/scala-training-slides"&gt;http://github.com/javabin/scala-training-slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://github.com/javabin/scala-training-code"&gt;http://github.com/javabin/scala-training-code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;span style="font-size:small;"&gt;&lt;strong&gt;Thanks&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;ul id="r98d11"&gt;
+&lt;li id="r98d12"&gt; Libsyn.com - &lt;a rel="nofollow" id="r98d13" target="_blank" href="http://www.libsyn.com/"&gt;http://www.libsyn.com&lt;/a&gt; - for hosting and bandwidth &lt;/li&gt;
+&lt;li id="r98d14"&gt;Feedburner.com - &lt;a rel="nofollow" id="r98d18" target="_blank" href="http://www.feedburner.com/"&gt;http://www.feedburner.com&lt;/a&gt; - for feed redirect&lt;/li&gt;
+&lt;li id="r98d19"&gt;&lt;a rel="nofollow" id="r98d20" title="Kirsty Doherty" target="_blank" href="http://www.flowerthepa.co.uk/"&gt;Kirsty Doherty&lt;/a&gt;,&amp;nbsp;&lt;a rel="nofollow" id="r98d22" title="Amy Ehmann" target="_blank" href="http://designlotus.com/"&gt;Amy Ehmann&lt;/a&gt; for Java Posse artwork &lt;/li&gt;
+&lt;li id="h-gd"&gt;Theme Music: &lt;ul id="r98d33"&gt;
+&lt;li id="iaam"&gt;Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), &lt;ul&gt;
+&lt;li&gt;written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney.&lt;/li&gt;
+&lt;li&gt;Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad.&lt;/li&gt;
+&lt;li&gt;Re-produced with kind permission from "Loose" Bruce Kerr - &lt;a rel="nofollow" id="r98d32" title="http://loosebrucekerr.libsyn.com" target="_blank" href="http://loosebrucekerr.libsyn.com/"&gt;http://loosebrucekerr.libsyn.com&lt;/a&gt;&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://www.youtube.com/watch?v=TAX0gJt-aZg"&gt;http://www.youtube.com/watch?v=TAX0gJt-aZg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li id="r98d34"&gt;Closing - Juan Carlos Jimenez - In the House (Intro No. 1)&lt;br id="r98d35"/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul id="r98d36"&gt;
+&lt;li id="r98d37"&gt; To contact us: &lt;ul id="r98d38"&gt;
+&lt;li id="r98d39"&gt; Visit our homepage - &lt;a rel="nofollow" id="r98d40" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/li&gt;
+&lt;li id="x1gp"&gt; Post on our Google Group - &lt;a rel="nofollow" id="r98d42" title="http://groups.google.com/group/javaposse" target="_blank" href="http://groups.google.com/group/javaposse"&gt;http://groups.google.com/group/javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="howv"&gt;Pose a question on our Google Moderator group - &lt;a rel="nofollow" id="gl3y" title="http://tinyurl.com/q4javaposse" target="_blank" href="http://tinyurl.com/q4javaposse"&gt;http://tinyurl.com/q4javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="r98d43"&gt; Call us with questions and feedback - (408) 465-4626 &lt;/li&gt;
+&lt;li id="r98d44"&gt; Or send us email - &lt;a rel="nofollow" id="r98d45" target="_blank" href="https://mail.google.com/mail?view=cm&amp;amp;tf=0&amp;amp;to=//javaposse@gmail.com/"&gt;javaposse@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br id="ju.v"/&gt; The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall&lt;br id="ja2k"/&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/javaposse?a=6yX9wX0orA4:DRvBxJAfEZM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/javaposse?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+         <guid isPermaLink="false">http://javaposse.com/index.php?post_id=604559#</guid>
+         <pubDate>Wed, 14 Apr 2010 11:09:00 -0700</pubDate>
+         <category>podcasts</category>
+         <enclosure length="43794237" url="http://media.libsyn.com/media/dickwall/JavaPosse302.mp3" type="audio/mpeg" />
+      <author>javaposse@gmail.com (Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall)</author><media:content url="http://media.libsyn.com/media/dickwall/JavaPosse302.mp3" fileSize="43794237" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle> Roundup '10 - Functional/OO hybrids and the Closing Session Fully formatted shownotes can always be found at http://javaposse.com Recorded at the Java Posse Roundup 2010 in Crested Butte, CO. This podcasts consists of two sessions, a shorter 30 minute di</itunes:subtitle><itunes:author>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:author><itunes:summary> Roundup '10 - Functional/OO hybrids and the Closing Session Fully formatted shownotes can always be found at http://javaposse.com Recorded at the Java Posse Roundup 2010 in Crested Butte, CO. This podcasts consists of two sessions, a shorter 30 minute discussion about Object Oriented/Functional hybrid language adoption, and the closing session where almost all of the attendees introduce themselves (a handful had already left for flights). Scala http://scala-lang.org BASE http://svscala.ning.com F# http://research.microsoft.com/en-us/um/cambridge/projects/fsharp/ Clojure http://clojure.org/ C# http://msdn.microsoft.com/en-us/vcsharp/aa336809.aspx Closures in Java 7 http://javac.info/ Javascript http://www.javascript.com/ Function literals http://en.wikipedia.org/wiki/First-class_function Immutability http://en.wikipedia.org/wiki/Immutable_object Ruby and Rails http://rubyonrails.org/ Scaladoc http://www.scala-lang.org/archives/beta-api/index.html Introductions to Scala http://www.scala-lang.org/node/104 http://jonasboner.com/2008/10/01/real-world-scala-introduction.html Scala books http://www.scala-lang.org/node/959 Lift website http://liftweb.net/ Scala for the Busy Java developer - Ted Neward http://www.ibm.com/developerworks/java/library/j-scala01228.html Scala Swing http://www.scala-lang.org/sid/8 Swing in Clojure http://stuartsierra.com/2010/01/06/heating-up-clojure-swing Actors for maintaining state http://lambda-the-ultimate.org/node/3108 The Definitive Guide to JavaScript / JavaScript the Good Parts http://www.amazon.com/exec/obidos/ASIN/0596000480/equal-20 http://ajaxian.com/archives/book-review-&amp;ldquo;javascript-the-good-parts&amp;rdquo;-by-crockford Functional Koans http://github.com/relevance/functional-koans/tree/scala Ruby Koans http://github.com/edgecase/ruby_koans Cay Horstmann Functional Programming slides http://www.horstmann.com/sjsu/cs152/schedule.html Javabin scala-training-slides and scala-training-code on github http://github.com/javabin/scala-training-slides http://github.com/javabin/scala-training-code Thanks Libsyn.com - http://www.libsyn.com - for hosting and bandwidth Feedburner.com - http://www.feedburner.com - for feed redirect Kirsty Doherty,&amp;nbsp;Amy Ehmann for Java Posse artwork Theme Music: Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney. Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad. Re-produced with kind permission from "Loose" Bruce Kerr - http://loosebrucekerr.libsyn.com&amp;nbsp;http://www.youtube.com/watch?v=TAX0gJt-aZg Closing - Juan Carlos Jimenez - In the House (Intro No. 1) To contact us: Visit our homepage - http://javaposse.com Post on our Google Group - http://groups.google.com/group/javaposse Pose a question on our Google Moderator group - http://tinyurl.com/q4javaposse Call us with questions and feedback - (408) 465-4626 Or send us email - javaposse@gmail.com The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall</itunes:summary><itunes:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</itunes:keywords></item>
+      <item>
+         <title>Java Posse #301 - Newscast for April 2nd 2010</title>
+         <link>http://javaposse.com/index.php?post_id=600120#</link>
+         <description>&lt;div&gt;
+&lt;h2 id="r98d0"&gt;Newscast for April 2nd 2010&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div&gt;Fully formatted shownotes can always be found at &lt;a rel="nofollow" id="r98d3" title="http://javaposse.com" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;Last chance - Javazone call for papers extended 1 week.&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://jz10.java.no/program.html"&gt;http://jz10.java.no/program.html&lt;/a&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Apple, Android, HTC, marketplaces and ex-CEOs. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.apple.com/pr/library/2010/03/02patents.html"&gt;http://www.apple.com/pr/library/2010/03/02patents.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://techcrunch.com/2010/03/02/apple-goes-after-htc-in-lawsuit-over-20-iphone-patents/"&gt;http://techcrunch.com/2010/03/02/apple-goes-after-htc-in-lawsuit-over-20-iphone-patents/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://techcrunch.com/2010/03/02/the-complaint-apples-patent-lawsuit-against-htc-is-all-about-android/"&gt;http://techcrunch.com/2010/03/02/the-complaint-apples-patent-lawsuit-against-htc-is-all-about-android/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.reuters.com/article/idUSTRE62H0EA20100318"&gt;http://www.reuters.com/article/idUSTRE62H0EA20100318&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://java.dzone.com/dose/dzone-daily-dose-34"&gt;http://java.dzone.com/dose/dzone-daily-dose-34&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://threatpost.com/en_us/blogs/htc-phones-pre-installed-mariposa-bot-client-030910"&gt;http://threatpost.com/en_us/blogs/htc-phones-pre-installed-mariposa-bot-client-030910&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.petitiononline.com/androidm/"&gt;http://www.petitiononline.com/androidm/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.ilounge.com/index.php/news/comments/eff-posts-apples-iphone-developer-agreement-online/"&gt;http://www.ilounge.com/index.php/news/comments/eff-posts-apples-iphone-developer-agreement-online/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://jonathanischwartz.wordpress.com/2010/03/09/good-artists-copy-great-artists-steal/"&gt;http://jonathanischwartz.wordpress.com/2010/03/09/good-artists-copy-great-artists-steal/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Tim Bray, co-editor of the XML specifications and former Sun director of web technologies, joins Google as developer advocate.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.tbray.org/ongoing/When/201x/2010/03/15/Joining-Google"&gt;http://www.tbray.org/ongoing/When/201x/2010/03/15/Joining-Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" title="http://ruby.dzone.com/dose/dzone-daily-dose-316" target="_blank" href="http://ruby.dzone.com/dose/dzone-daily-dose-316"&gt;http://ruby.dzone.com/dose/dzone-daily-dose-316&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Is Java.net going to Sonatype for infrastructure? &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://java.dzone.com/news/maven-studio-announced-oracle?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed:+eclipsezone/frontpage+%28Eclipse+Zone%29&amp;amp;utm_content=Google+Reader"&gt;http://java.dzone.com/news/maven-studio-announced-oracle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://weblogs.java.net/blog/fabriziogiudici/archive/2010/03/23/oracle-officially-asked-sonatype-back-javanet"&gt;http://weblogs.java.net/blog/fabriziogiudici/archive/2010/03/23/oracle-officially-asked-sonatype-back-javanet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://weblogs.java.net/blog/kfarnham/archive/2010/03/23/no-formal-arrangementagreement-exists-between-javanet-and-sonatype"&gt;http://weblogs.java.net/blog/kfarnham/archive/2010/03/23/no-formal-arrangementagreement-exists-between-javanet-and-sonatype&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Miguel De Icaza speaks out against microsoft's handling of .NET, then the article mysteriously disappears (but Google still has it cached). &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="z0yb" title="http://74.125.153.132/search?q=cache:http://www.sdtimes.com/link/34203&amp;amp;hl=en" target="_blank" href="http://74.125.153.132/search?q=cache:http://www.sdtimes.com/link/34203&amp;amp;hl=en"&gt;http://74.125.153.132/search?q=cache:http://www.sdtimes.com/link/34203&amp;amp;hl=en&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.itwire.com/opinion-and-analysis/open-sauce/37880-microsoft-has-shot-net-ecosystem-in-foot-de-icaza"&gt;http://www.itwire.com/opinion-and-analysis/open-sauce/37880-microsoft-has-shot-net-ecosystem-in-foot-de-icaza&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://java.dzone.com/dose/dzone-daily-dose-326?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed:+eclipsezone/frontpage+%28Eclipse+Zone%29&amp;amp;utm_content=Google+Reader"&gt;http://java.dzone.com/dose/dzone-daily-dose-326&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://tirania.org/blog/archive/2010/Mar-25.html"&gt;http://tirania.org/blog/archive/2010/Mar-25.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Fallout from the Oracle acquisition of Sun continues, with Simon Phipps, former Sun open source officer, being elected to the OSI (Open Source Initiative) board of directors. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://webmink.com/2010/03/08/sundown/"&gt;http://webmink.com/2010/03/08/sundown/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://webmink.com/"&gt;http://webmink.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="ttjz" title="http://java.dzone.com/dose/dzone-daily-dose-312" target="_blank" href="http://java.dzone.com/dose/dzone-daily-dose-312"&gt;http://java.dzone.com/dose/dzone-daily-dose-312&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.opensource.org/"&gt;http://www.opensource.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.infoworld.com/d/developer-world/java-pioneer-distances-himself-jcp-932"&gt;http://www.infoworld.com/d/developer-world/java-pioneer-distances-himself-jcp-932&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;A quick mention: the large hadron collider in CERN has had its first successful run.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://javaposse.com/index.php?post_id=347725"&gt;http://javaposse.com/index.php?post_id=347725&lt;/a&gt;&lt;br /&gt;&lt;a rel="nofollow" target="_blank" href="http://lhc.web.cern.ch/lhc/"&gt;http://lhc.web.cern.ch/lhc/&lt;/a&gt;
+&lt;ul&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Quick News&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Eclipsecon e4-rover mars challenge winner was announced at EclipseCon last week. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" style="color:#551a8b;" target="_blank" href="http://ianskerrett.wordpress.com/2010/03/26/winners-of-the-e4-rover-mars-challenge/"&gt;http://ianskerrett.wordpress.com/2010/03/26/winners-of-the-e4-rover-mars-challenge/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" style="color:#551a8b;" target="_blank" href="http://recombu.com/news/iphone-app-developed-to-control-nasa-mars-robot_M11588.html"&gt;http://recombu.com/news/iphone-app-developed-to-control-nasa-mars-robot_M11588.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon announced a new Java SDK for Amazon Web Services at EclipseCon. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://aws.amazon.com/about-aws/whats-new/2010/03/22/announcing-the-aws-sdk-for-java/"&gt;http://aws.amazon.com/about-aws/whats-new/2010/03/22/announcing-the-aws-sdk-for-java/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;DZone has a write up of the major news from EclipseCon. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://eclipse.dzone.com/articles/eclipsecon-2010-report?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed:+eclipsezone/frontpage+%28Eclipse+Zone%29&amp;amp;utm_content=Google+Reader"&gt;http://eclipse.dzone.com/articles/eclipsecon-2010-report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;11 sessions from the Glassfish virtual conference are now available in podcast form. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://blogs.sun.com/glassfishpodcast/"&gt;http://blogs.sun.com/glassfishpodcast/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Primefaces, available for both JSF 1.0 and 2.0, has just been released open source under the Apache v2 license. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.primefaces.org/"&gt;http://www.primefaces.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Google has launched the Google Apps Marketplace (not to be confused with the Android marketplace). &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.google.com/enterprise/marketplace/home"&gt;http://www.google.com/enterprise/marketplace/home&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Aaron Houston has joined Adobe as the community manager for several of their user groups including Flex, Air and ColdFusion. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://weblogs.java.net/blog/sunahouston/archive/2010/03/15/houston-go-adobe-ive-made-it-other-side"&gt;http://weblogs.java.net/blog/sunahouston/archive/2010/03/15/houston-go-adobe-ive-made-it-other-side&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;There may yet be hope for an improved Date and Time API for Java 7. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://jcp.org/en/jsr/summary?id=310"&gt;http://jcp.org/en/jsr/summary?id=310&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="kj8s" title="http://www.theserverside.com/discussions/thread.tss?thread_id=59624" target="_blank" href="http://www.theserverside.com/discussions/thread.tss?thread_id=59624"&gt;http://www.theserverside.com/discussions/thread.tss?thread_id=59624&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;How to kill an OSGi project in 10 questions by Adam Bien. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="qk:l" title="http://java.dzone.com/articles/how-kill-osgi-project-10" target="_blank" href="http://java.dzone.com/articles/how-kill-osgi-project-10"&gt;http://java.dzone.com/articles/how-kill-osgi-project-10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;ScalaWags&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It looks like the first Scala Days event, to be held in Lausanne, Switzerland on April 15th and 16th is assured success. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://days2010.scala-lang.org/node/132"&gt;http://days2010.scala-lang.org/node/132&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://days2010.scala-lang.org/program"&gt;http://days2010.scala-lang.org/program&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;The Scala team is organizing proposals for this year's Google summer of code. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.scala-lang.org/node/5543"&gt;http://www.scala-lang.org/node/5543&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.scala-lang.org/gsoc2010"&gt;http://www.scala-lang.org/gsoc2010&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;And a Scala application of the week. Kojo is a Scala learning environment written using the NetBeans rich client platform. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://netbeans.dzone.com/learn-scala-with-kojo"&gt;http://netbeans.dzone.com/learn-scala-with-kojo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Groovy, Baby!&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;IndicThreads has more information about Groovy++. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.indicthreads.com/7355/what-is-groovy-how-does-it-compare-with-java-and-groovy/"&gt;http://www.indicthreads.com/7355/what-is-groovy-how-does-it-compare-with-java-and-groovy/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Listener Feedback&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Buttons stop working on Linux, the truth revealed &lt;ul&gt;
+&lt;li&gt;&lt;span style="font-family:arial, sans-serif;"&gt;&lt;span style="font-size:x-small;"&gt;&lt;a rel="nofollow" style="color:#0000cc;" target="_blank" href="https://bugs.launchpad.net/gtk/+bug/442078"&gt;https://bugs.launchpad.net/gtk/+bug/442078&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family:arial, sans-serif;"&gt;PDF based replacement for Help&lt;/span&gt; &lt;ul&gt;
+&lt;li&gt;&lt;span style="font-family:arial, sans-serif;"&gt;&lt;span style="font-size:x-small;"&gt;&lt;a rel="nofollow" style="color:#0000cc;" target="_blank" href="http://www.pdfhelp.org/"&gt;http://www.pdfhelp.org&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family:arial, sans-serif;"&gt;HTTPCache4J&lt;/span&gt; &lt;ul&gt;
+&lt;li&gt;&lt;span style="font-family:arial, sans-serif;"&gt;&lt;span style="font-size:x-small;"&gt;&lt;a rel="nofollow" style="color:#0000cc;" target="_blank" href="http://httpcache4j.codehaus.org/"&gt;http://httpcache4j.codehaus.org/&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="r98d10"&gt;Thanks&lt;/h3&gt;
+&lt;ul id="r98d11"&gt;
+&lt;li id="r98d12"&gt; Libsyn.com - &lt;a rel="nofollow" id="r98d13" target="_blank" href="http://www.libsyn.com/"&gt;http://www.libsyn.com&lt;/a&gt; - for hosting and bandwidth &lt;/li&gt;
+&lt;li id="r98d14"&gt;Feedburner.com - &lt;a rel="nofollow" id="r98d18" target="_blank" href="http://www.feedburner.com/"&gt;http://www.feedburner.com&lt;/a&gt; - for feed redirect&lt;/li&gt;
+&lt;li id="r98d19"&gt;&lt;a rel="nofollow" id="r98d20" title="Kirsty Doherty" target="_blank" href="http://www.flowerthepa.co.uk/"&gt;Kirsty Doherty&lt;/a&gt;,&amp;nbsp;&lt;a rel="nofollow" id="r98d22" title="Amy Ehmann" target="_blank" href="http://designlotus.com/"&gt;Amy Ehmann&lt;/a&gt; for Java Posse artwork &lt;/li&gt;
+&lt;li id="h-gd"&gt;Theme Music: &lt;ul id="r98d33"&gt;
+&lt;li id="iaam"&gt;Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), &lt;ul&gt;
+&lt;li&gt;written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney.&lt;/li&gt;
+&lt;li&gt;Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad.&lt;/li&gt;
+&lt;li&gt;Re-produced with kind permission from "Loose" Bruce Kerr - &lt;a rel="nofollow" id="r98d32" title="http://loosebrucekerr.libsyn.com" target="_blank" href="http://loosebrucekerr.libsyn.com/"&gt;http://loosebrucekerr.libsyn.com&lt;/a&gt;&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://www.youtube.com/watch?v=TAX0gJt-aZg"&gt;http://www.youtube.com/watch?v=TAX0gJt-aZg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li id="r98d34"&gt;Closing - Juan Carlos Jimenez - In the House (Intro No. 1)&lt;br id="r98d35"/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul id="r98d36"&gt;
+&lt;li id="r98d37"&gt; To contact us: &lt;ul id="r98d38"&gt;
+&lt;li id="r98d39"&gt; Visit our homepage - &lt;a rel="nofollow" id="r98d40" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/li&gt;
+&lt;li id="x1gp"&gt; Post on our Google Group - &lt;a rel="nofollow" id="r98d42" title="http://groups.google.com/group/javaposse" target="_blank" href="http://groups.google.com/group/javaposse"&gt;http://groups.google.com/group/javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="howv"&gt;Pose a question on our Google Moderator group - &lt;a rel="nofollow" id="gl3y" title="http://tinyurl.com/q4javaposse" target="_blank" href="http://tinyurl.com/q4javaposse"&gt;http://tinyurl.com/q4javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="r98d43"&gt; Call us with questions and feedback - (408) 465-4626 &lt;/li&gt;
+&lt;li id="r98d44"&gt; Or send us email - &lt;a rel="nofollow" id="r98d45" target="_blank" href="https://mail.google.com/mail?view=cm&amp;amp;tf=0&amp;amp;to=//javaposse@gmail.com/"&gt;javaposse@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br id="ju.v"/&gt; The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall&lt;br id="ja2k"/&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/javaposse?a=F3zD14Vo4hU:O96Z3k60I5g:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/javaposse?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+         <guid isPermaLink="false">http://javaposse.com/index.php?post_id=600120#</guid>
+         <pubDate>Fri, 02 Apr 2010 09:52:00 -0700</pubDate>
+         <category>podcasts</category>
+         <enclosure length="71469957" url="http://media.libsyn.com/media/dickwall/JavaPosse301.mp3" type="audio/mpeg" />
+      <author>javaposse@gmail.com (Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall)</author><media:content url="http://media.libsyn.com/media/dickwall/JavaPosse301.mp3" fileSize="71469957" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle> Newscast for April 2nd 2010 Fully formatted shownotes can always be found at http://javaposse.com Last chance - Javazone call for papers extended 1 week.&amp;nbsp;http://jz10.java.no/program.html Apple, Android, HTC, marketplaces and ex-CEOs. http://www.appl</itunes:subtitle><itunes:author>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:author><itunes:summary> Newscast for April 2nd 2010 Fully formatted shownotes can always be found at http://javaposse.com Last chance - Javazone call for papers extended 1 week.&amp;nbsp;http://jz10.java.no/program.html Apple, Android, HTC, marketplaces and ex-CEOs. http://www.apple.com/pr/library/2010/03/02patents.html http://techcrunch.com/2010/03/02/apple-goes-after-htc-in-lawsuit-over-20-iphone-patents/ http://techcrunch.com/2010/03/02/the-complaint-apples-patent-lawsuit-against-htc-is-all-about-android/ http://www.reuters.com/article/idUSTRE62H0EA20100318 http://java.dzone.com/dose/dzone-daily-dose-34 http://threatpost.com/en_us/blogs/htc-phones-pre-installed-mariposa-bot-client-030910 http://www.petitiononline.com/androidm/ http://www.ilounge.com/index.php/news/comments/eff-posts-apples-iphone-developer-agreement-online/ http://jonathanischwartz.wordpress.com/2010/03/09/good-artists-copy-great-artists-steal/ Tim Bray, co-editor of the XML specifications and former Sun director of web technologies, joins Google as developer advocate. http://www.tbray.org/ongoing/When/201x/2010/03/15/Joining-Google http://ruby.dzone.com/dose/dzone-daily-dose-316 Is Java.net going to Sonatype for infrastructure? http://java.dzone.com/news/maven-studio-announced-oracle http://weblogs.java.net/blog/fabriziogiudici/archive/2010/03/23/oracle-officially-asked-sonatype-back-javanet http://weblogs.java.net/blog/kfarnham/archive/2010/03/23/no-formal-arrangementagreement-exists-between-javanet-and-sonatype Miguel De Icaza speaks out against microsoft's handling of .NET, then the article mysteriously disappears (but Google still has it cached). http://74.125.153.132/search?q=cache:http://www.sdtimes.com/link/34203&amp;amp;hl=en http://www.itwire.com/opinion-and-analysis/open-sauce/37880-microsoft-has-shot-net-ecosystem-in-foot-de-icaza http://java.dzone.com/dose/dzone-daily-dose-326 http://tirania.org/blog/archive/2010/Mar-25.html Fallout from the Oracle acquisition of Sun continues, with Simon Phipps, former Sun open source officer, being elected to the OSI (Open Source Initiative) board of directors. http://webmink.com/2010/03/08/sundown/ http://webmink.com/ http://java.dzone.com/dose/dzone-daily-dose-312 http://www.opensource.org/ http://www.infoworld.com/d/developer-world/java-pioneer-distances-himself-jcp-932 A quick mention: the large hadron collider in CERN has had its first successful run. http://javaposse.com/index.php?post_id=347725 http://lhc.web.cern.ch/lhc/ Quick News The Eclipsecon e4-rover mars challenge winner was announced at EclipseCon last week. http://ianskerrett.wordpress.com/2010/03/26/winners-of-the-e4-rover-mars-challenge/ http://recombu.com/news/iphone-app-developed-to-control-nasa-mars-robot_M11588.html Amazon announced a new Java SDK for Amazon Web Services at EclipseCon. http://aws.amazon.com/about-aws/whats-new/2010/03/22/announcing-the-aws-sdk-for-java/ DZone has a write up of the major news from EclipseCon. http://eclipse.dzone.com/articles/eclipsecon-2010-report 11 sessions from the Glassfish virtual conference are now available in podcast form. http://blogs.sun.com/glassfishpodcast/ Primefaces, available for both JSF 1.0 and 2.0, has just been released open source under the Apache v2 license. http://www.primefaces.org/ Google has launched the Google Apps Marketplace (not to be confused with the Android marketplace). http://www.google.com/enterprise/marketplace/home Aaron Houston has joined Adobe as the community manager for several of their user groups including Flex, Air and ColdFusion. http://weblogs.java.net/blog/sunahouston/archive/2010/03/15/houston-go-adobe-ive-made-it-other-side There may yet be hope for an improved Date and Time API for Java 7. http://jcp.org/en/jsr/summary?id=310 http://www.theserverside.com/discussions/thread.tss?thread_id=59624 How to kill an OSGi project in 10 questions by Adam Bien. http://java.dzone.com/articles/how-kill-osgi-project-10 ScalaWags It looks like the first Scala Days event, to be held in Lausanne, Switze</itunes:summary><itunes:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</itunes:keywords></item>
+      <item>
+         <title>Java Posse #300 - Roundup 2010 Live</title>
+         <link>http://javaposse.com/index.php?post_id=595077#</link>
+         <description>&lt;h2&gt;Live from the Java Posse Roundup 2010&lt;/h2&gt;
+&lt;div&gt;Fully formatted shownotes can always be found at &lt;a rel="nofollow" id="r98d3" title="http://javaposse.com" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Recorded at the Java Posse Roundup 2010, Crested Butte, CO in front of all of the attendees.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://www.visitcrestedbutte.com/"&gt;http://www.visitcrestedbutte.com/&lt;/a&gt;&lt;/p&gt;
+&lt;div&gt;&lt;span style="font-size:small;"&gt;&lt;strong&gt;Thanks&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;ul id="r98d11"&gt;
+&lt;li id="r98d12"&gt; Libsyn.com - &lt;a rel="nofollow" id="r98d13" target="_blank" href="http://www.libsyn.com/"&gt;http://www.libsyn.com&lt;/a&gt; - for hosting and bandwidth &lt;/li&gt;
+&lt;li id="r98d14"&gt;Feedburner.com - &lt;a rel="nofollow" id="r98d18" target="_blank" href="http://www.feedburner.com/"&gt;http://www.feedburner.com&lt;/a&gt; - for feed redirect&lt;/li&gt;
+&lt;li id="r98d19"&gt;&lt;a rel="nofollow" id="r98d20" title="Kirsty Doherty" target="_blank" href="http://www.flowerthepa.co.uk/"&gt;Kirsty Doherty&lt;/a&gt;,&amp;nbsp;&lt;a rel="nofollow" id="r98d22" title="Amy Ehmann" target="_blank" href="http://designlotus.com/"&gt;Amy Ehmann&lt;/a&gt; for Java Posse artwork &lt;/li&gt;
+&lt;li id="h-gd"&gt;Theme Music: &lt;ul id="r98d33"&gt;
+&lt;li id="iaam"&gt;Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), &lt;ul&gt;
+&lt;li&gt;written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney.&lt;/li&gt;
+&lt;li&gt;Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad.&lt;/li&gt;
+&lt;li&gt;Re-produced with kind permission from "Loose" Bruce Kerr - &lt;a rel="nofollow" id="r98d32" title="http://loosebrucekerr.libsyn.com" target="_blank" href="http://loosebrucekerr.libsyn.com/"&gt;http://loosebrucekerr.libsyn.com&lt;/a&gt;&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://www.youtube.com/watch?v=TAX0gJt-aZg"&gt;http://www.youtube.com/watch?v=TAX0gJt-aZg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li id="r98d34"&gt;Closing - Juan Carlos Jimenez - In the House (Intro No. 1)&lt;br id="r98d35"/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul id="r98d36"&gt;
+&lt;li id="r98d37"&gt; To contact us: &lt;ul id="r98d38"&gt;
+&lt;li id="r98d39"&gt; Visit our homepage - &lt;a rel="nofollow" id="r98d40" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/li&gt;
+&lt;li id="x1gp"&gt; Post on our Google Group - &lt;a rel="nofollow" id="r98d42" title="http://groups.google.com/group/javaposse" target="_blank" href="http://groups.google.com/group/javaposse"&gt;http://groups.google.com/group/javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="howv"&gt;Pose a question on our Google Moderator group - &lt;a rel="nofollow" id="gl3y" title="http://tinyurl.com/q4javaposse" target="_blank" href="http://tinyurl.com/q4javaposse"&gt;http://tinyurl.com/q4javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="r98d43"&gt; Call us with questions and feedback - (408) 465-4626 &lt;/li&gt;
+&lt;li id="r98d44"&gt; Or send us email - &lt;a rel="nofollow" id="r98d45" target="_blank" href="https://mail.google.com/mail?view=cm&amp;amp;tf=0&amp;amp;to=//javaposse@gmail.com/"&gt;javaposse@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br id="ju.v"/&gt; The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall&lt;br id="ja2k"/&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/javaposse?a=8HhOxS-YB50:UFkzxueQEZk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/javaposse?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+         <guid isPermaLink="false">http://javaposse.com/index.php?post_id=595077#</guid>
+         <pubDate>Fri, 19 Mar 2010 17:16:00 -0700</pubDate>
+         <category>podcasts</category>
+         <enclosure length="71934351" url="http://media.libsyn.com/media/dickwall/JavaPosse300.mp3" type="audio/mpeg" />
+      <author>javaposse@gmail.com (Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall)</author><media:content url="http://media.libsyn.com/media/dickwall/JavaPosse300.mp3" fileSize="71934351" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>Live from the Java Posse Roundup 2010 Fully formatted shownotes can always be found at http://javaposse.com Recorded at the Java Posse Roundup 2010, Crested Butte, CO in front of all of the attendees. http://www.mindviewinc.com/Conferences/JavaPosseRoundu</itunes:subtitle><itunes:author>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:author><itunes:summary>Live from the Java Posse Roundup 2010 Fully formatted shownotes can always be found at http://javaposse.com Recorded at the Java Posse Roundup 2010, Crested Butte, CO in front of all of the attendees. http://www.mindviewinc.com/Conferences/JavaPosseRoundup/ http://www.visitcrestedbutte.com/ Thanks Libsyn.com - http://www.libsyn.com - for hosting and bandwidth Feedburner.com - http://www.feedburner.com - for feed redirect Kirsty Doherty,&amp;nbsp;Amy Ehmann for Java Posse artwork Theme Music: Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney. Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad. Re-produced with kind permission from "Loose" Bruce Kerr - http://loosebrucekerr.libsyn.com&amp;nbsp;http://www.youtube.com/watch?v=TAX0gJt-aZg Closing - Juan Carlos Jimenez - In the House (Intro No. 1) To contact us: Visit our homepage - http://javaposse.com Post on our Google Group - http://groups.google.com/group/javaposse Pose a question on our Google Moderator group - http://tinyurl.com/q4javaposse Call us with questions and feedback - (408) 465-4626 Or send us email - javaposse@gmail.com The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall</itunes:summary><itunes:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</itunes:keywords></item>
+      <item>
+         <title>Java Posse #299 - Devoxx 09 - Project Lombok Interview</title>
+         <link>http://javaposse.com/index.php?post_id=591959#</link>
+         <description>&lt;div&gt;
+&lt;h2 id="r98d0"&gt;Project Lombok Interview&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div&gt;Fully formatted shownotes can always be found at &lt;a rel="nofollow" id="r98d3" title="http://javaposse.com" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;Preamble - alternative languages (and business) day at the Java Posse roundup. Meet 10am on Monday 15th at Rumors coffee and tea located in Blue Moon books. From there we will split off into groups and coding dojos.&lt;/div&gt;
+&lt;p&gt;This interview was recorded at Devoxx 2009 and is being released simultaneously as audio on the Java Posse, and in video form on Parleys. Check out parleys.com or look for the link in the shownotes to see the video version.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lombok talk on Parleys &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.parleys.com/#id=74957&amp;amp;st=4"&gt;http://www.parleys.com/#id=74957&amp;amp;st=4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Video version of this talk &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="m.xh" title="http://parleys.com/d/1881" target="_blank" href="http://parleys.com/d/1881"&gt;http://parleys.com/d/1881&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The Project Lombok talk &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="cd62" title="http://parleys.com/d/1574" target="_blank" href="http://parleys.com/d/1574"&gt;http://parleys.com/d/1574&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Project Lombok site &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://projectlombok.org/"&gt;http://projectlombok.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Project Coin &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://openjdk.java.net/projects/coin/"&gt;http://openjdk.java.net/projects/coin/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;BGGA &amp;nbsp;and java draft closures prototype/proposal &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://javac.info/"&gt;http://javac.info/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Joe Darcy blog post - annotation stub generation &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://blogs.sun.com/darcy/entry/properties_via_annotation_processing"&gt;http://blogs.sun.com/darcy/entry/properties_via_annotation_processing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;De-lombok &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://projectlombok.org/features/delombok.html"&gt;http://projectlombok.org/features/delombok.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;IDE support - current state &lt;ul&gt;
+&lt;li&gt;Netbeans -&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://wiki.netbeans.org/Lombok"&gt;http://wiki.netbeans.org/Lombok&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;IDEA -&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://wiki.github.com/rzwitserloot/lombok/intellij-idea"&gt;http://wiki.github.com/rzwitserloot/lombok/intellij-idea&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;@Data &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://projectlombok.org/features/Data.html"&gt;http://projectlombok.org/features/Data.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;@Cleanup &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://projectlombok.org/features/Cleanup.html"&gt;http://projectlombok.org/features/Cleanup.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;All current Lombok features &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://projectlombok.org/features/index.html"&gt;http://projectlombok.org/features/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Delegates (in .NET) &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://en.wikipedia.org/wiki/Delegate_%28.NET%29"&gt;http://en.wikipedia.org/wiki/Delegate_(.NET)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mixins/Traits &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://en.wikipedia.org/wiki/Mixins"&gt;http://en.wikipedia.org/wiki/Mixins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;About Reinier and Roel &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://projectlombok.org/credits.html"&gt;http://projectlombok.org/credits.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tippits - tip jars on websites &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://tipit.to/"&gt;http://tipit.to/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Topdesk - service management system &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.topdesk.com/en/home/"&gt;http://www.topdesk.com/en/home/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="font-size:small;"&gt;&lt;strong&gt;Thanks&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul id="r98d11"&gt;
+&lt;li id="r98d12"&gt; Libsyn.com - &lt;a rel="nofollow" id="r98d13" target="_blank" href="http://www.libsyn.com/"&gt;http://www.libsyn.com&lt;/a&gt; - for hosting and bandwidth &lt;/li&gt;
+&lt;li id="r98d14"&gt;Feedburner.com - &lt;a rel="nofollow" id="r98d18" target="_blank" href="http://www.feedburner.com/"&gt;http://www.feedburner.com&lt;/a&gt; - for feed redirect&lt;/li&gt;
+&lt;li id="r98d19"&gt;&lt;a rel="nofollow" id="r98d20" title="Kirsty Doherty" target="_blank" href="http://www.flowerthepa.co.uk/"&gt;Kirsty Doherty&lt;/a&gt;,&amp;nbsp;&lt;a rel="nofollow" id="r98d22" title="Amy Ehmann" target="_blank" href="http://designlotus.com/"&gt;Amy Ehmann&lt;/a&gt; for Java Posse artwork &lt;/li&gt;
+&lt;li id="h-gd"&gt;Theme Music: &lt;ul id="r98d33"&gt;
+&lt;li id="iaam"&gt;Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), &lt;ul&gt;
+&lt;li&gt;written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney.&lt;/li&gt;
+&lt;li&gt;Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad.&lt;/li&gt;
+&lt;li&gt;Re-produced with kind permission from "Loose" Bruce Kerr - &lt;a rel="nofollow" id="r98d32" title="http://loosebrucekerr.libsyn.com" target="_blank" href="http://loosebrucekerr.libsyn.com/"&gt;http://loosebrucekerr.libsyn.com&lt;/a&gt;&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://www.youtube.com/watch?v=TAX0gJt-aZg"&gt;http://www.youtube.com/watch?v=TAX0gJt-aZg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li id="r98d34"&gt;Closing - Juan Carlos Jimenez - In the House (Intro No. 1)&lt;br id="r98d35"/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul id="r98d36"&gt;
+&lt;li id="r98d37"&gt; To contact us: &lt;ul id="r98d38"&gt;
+&lt;li id="r98d39"&gt; Visit our homepage - &lt;a rel="nofollow" id="r98d40" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/li&gt;
+&lt;li id="x1gp"&gt; Post on our Google Group - &lt;a rel="nofollow" id="r98d42" title="http://groups.google.com/group/javaposse" target="_blank" href="http://groups.google.com/group/javaposse"&gt;http://groups.google.com/group/javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="howv"&gt;Pose a question on our Google Moderator group - &lt;a rel="nofollow" id="gl3y" title="http://tinyurl.com/q4javaposse" target="_blank" href="http://tinyurl.com/q4javaposse"&gt;http://tinyurl.com/q4javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="r98d43"&gt; Call us with questions and feedback - (408) 465-4626 &lt;/li&gt;
+&lt;li id="r98d44"&gt; Or send us email - &lt;a rel="nofollow" id="r98d45" target="_blank" href="https://mail.google.com/mail?view=cm&amp;amp;tf=0&amp;amp;to=//javaposse@gmail.com/"&gt;javaposse@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall&lt;br id="ja2k"/&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/javaposse?a=Xd71yRHx7IY:1lBFcyTHHr0:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/javaposse?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+         <guid isPermaLink="false">http://javaposse.com/index.php?post_id=591959#</guid>
+         <pubDate>Thu, 11 Mar 2010 08:10:00 -0800</pubDate>
+         <category>podcasts</category>
+         <enclosure length="22712875" url="http://media.libsyn.com/media/dickwall/JavaPosse299.mp3" type="audio/mpeg" />
+      <author>javaposse@gmail.com (Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall)</author><media:content url="http://media.libsyn.com/media/dickwall/JavaPosse299.mp3" fileSize="22712875" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle> Project Lombok Interview Fully formatted shownotes can always be found at http://javaposse.com Preamble - alternative languages (and business) day at the Java Posse roundup. Meet 10am on Monday 15th at Rumors coffee and tea located in Blue Moon books. Fr</itunes:subtitle><itunes:author>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:author><itunes:summary> Project Lombok Interview Fully formatted shownotes can always be found at http://javaposse.com Preamble - alternative languages (and business) day at the Java Posse roundup. Meet 10am on Monday 15th at Rumors coffee and tea located in Blue Moon books. From there we will split off into groups and coding dojos. This interview was recorded at Devoxx 2009 and is being released simultaneously as audio on the Java Posse, and in video form on Parleys. Check out parleys.com or look for the link in the shownotes to see the video version. Lombok talk on Parleys http://www.parleys.com/#id=74957&amp;amp;st=4 Video version of this talk http://parleys.com/d/1881 The Project Lombok talk http://parleys.com/d/1574 Project Lombok site http://projectlombok.org/ Project Coin http://openjdk.java.net/projects/coin/ BGGA &amp;nbsp;and java draft closures prototype/proposal http://javac.info/ Joe Darcy blog post - annotation stub generation http://blogs.sun.com/darcy/entry/properties_via_annotation_processing De-lombok http://projectlombok.org/features/delombok.html IDE support - current state Netbeans -&amp;nbsp;http://wiki.netbeans.org/Lombok IDEA -&amp;nbsp;http://wiki.github.com/rzwitserloot/lombok/intellij-idea @Data http://projectlombok.org/features/Data.html @Cleanup http://projectlombok.org/features/Cleanup.html All current Lombok features http://projectlombok.org/features/index.html Delegates (in .NET) http://en.wikipedia.org/wiki/Delegate_(.NET) Mixins/Traits http://en.wikipedia.org/wiki/Mixins About Reinier and Roel http://projectlombok.org/credits.html Tippits - tip jars on websites http://tipit.to/ Topdesk - service management system http://www.topdesk.com/en/home/ Thanks Libsyn.com - http://www.libsyn.com - for hosting and bandwidth Feedburner.com - http://www.feedburner.com - for feed redirect Kirsty Doherty,&amp;nbsp;Amy Ehmann for Java Posse artwork Theme Music: Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney. Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad. Re-produced with kind permission from "Loose" Bruce Kerr - http://loosebrucekerr.libsyn.com&amp;nbsp;http://www.youtube.com/watch?v=TAX0gJt-aZg Closing - Juan Carlos Jimenez - In the House (Intro No. 1) To contact us: Visit our homepage - http://javaposse.com Post on our Google Group - http://groups.google.com/group/javaposse Pose a question on our Google Moderator group - http://tinyurl.com/q4javaposse Call us with questions and feedback - (408) 465-4626 Or send us email - javaposse@gmail.com The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall</itunes:summary><itunes:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</itunes:keywords></item>
+      <item>
+         <title>Java Posse #298 - Newscast for Feb 25th 2010</title>
+         <link>http://javaposse.com/index.php?post_id=586968#</link>
+         <description>&lt;h2&gt;Newscast for Feb 25th 2010&lt;/h2&gt;
+&lt;div&gt;Fully formatted shownotes can always be found at &lt;a rel="nofollow" id="r98d3" title="http://javaposse.com" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;Please join us for the Java Posse Roundup 2010 in beautiful Crested Butte, CO. for an unconference of fantastic geek proportions.&lt;/div&gt;
+&lt;div&gt;To find out more:&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/&lt;/a&gt; To sign up:&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php&lt;/a&gt; And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at:&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" style="color:#551a8b;" title="http://tinyurl.com/jproundup2010" target="_blank" href="http://tinyurl.com/jproundup2010"&gt;http://tinyurl.com/jproundup2010&lt;/a&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Details begin to emerge about Oracle/Sun merging the JRockit and Sun Hotspot JVMs. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="https://channelsun.sun.com/media/show/15028"&gt;https://channelsun.sun.com/media/show/15028&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.infoworld.com/d/developer-world/oracle-set-merge-java-virtual-machines-935"&gt;http://www.infoworld.com/d/developer-world/oracle-set-merge-java-virtual-machines-935&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.oracle.com/technology/products/jrockit/missioncontrol/index.html"&gt;http://www.oracle.com/technology/products/jrockit/missioncontrol/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;nbsp;NetBeans 6.9 Milestone 1 &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="usyt" title="http://wiki.netbeans.org/NewAndNoteworthy69m1" target="_blank" href="http://wiki.netbeans.org/NewAndNoteworthy69m1"&gt;http://wiki.netbeans.org/NewAndNoteworthy69m1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="lhr6" title="http://wiki.netbeans.org/FitnessViaPostMortem" target="_blank" href="http://wiki.netbeans.org/FitnessViaPostMortem"&gt;http://wiki.netbeans.org/FitnessViaPostMortem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;JavaOne call for papers is now open &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://blogs.sun.com/theaquarium/entry/javaone_2010_call_for_papers"&gt;http://blogs.sun.com/theaquarium/entry/javaone_2010_call_for_papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://java.dzone.com/announcements/javaone-call-papers"&gt;http://java.dzone.com/announcements/javaone-call-papers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Application of the week - CrashPlan &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="q0h2" title="http://crashplan.com" target="_blank" href="http://crashplan.com/"&gt;http://crashplan.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Quick News&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;JavaFX is seeing active duty in the Winter Olympics &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://terrencebarr.wordpress.com/2010/02/11/javafx-powers-vancouver-winter-olympics/"&gt;http://terrencebarr.wordpress.com/2010/02/11/javafx-powers-vancouver-winter-olympics/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;ScalaWags&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;With the approaching release of Scala 2.8, Lift is being updated as well. &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.scala-lang.org/node/5236"&gt;http://www.scala-lang.org/node/5236&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://blog.lostlake.org/index.php?/archives/98-Back-in-the-Goat-Saddle.html"&gt;http://blog.lostlake.org/index.php?/archives/98-Back-in-the-Goat-Saddle.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Listener Feedback&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Java based multiplayer game server open sourced &lt;ul&gt;
+&lt;li&gt;Community site: www.cubeia.org&lt;/li&gt;
+&lt;li&gt;Corporate site: www.cubeia.com&lt;/li&gt;
+&lt;li&gt;More about Firebase: &lt;a rel="nofollow" id="w.78" title="http://www.cubeia.com/index.php/products/firebase" target="_blank" href="http://www.cubeia.com/index.php/products/firebase"&gt;http://www.cubeia.com/index.php/products/firebase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Backgammon on Firebase: &lt;a rel="nofollow" id="re.k" title="http://www.jadestone.se/index.php?page=backgammon" target="_blank" href="http://www.jadestone.se/index.php?page=backgammon"&gt;http://www.jadestone.se/index.php?page=backgammon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mahjong on Firebase: &lt;a rel="nofollow" id="b-kg" title="http://www.mahjongexpress.com/" target="_blank" href="http://www.mahjongexpress.com/"&gt;http://www.mahjongexpress.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;BioGroovy &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="ujd1" title="http://biogroovy.open-bio.org" target="_blank" href="http://biogroovy.open-bio.org/"&gt;http://biogroovy.open-bio.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;The TempoPosse &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="giyh" title="http://tempoposse.herod.net" target="_blank" href="http://tempoposse.herod.net/"&gt;http://tempoposse.herod.net&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Online backup suggestions: &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" target="_blank" href="http://www.backblaze.com/"&gt;http://www.backblaze.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="vmgi" title="http://www.crashplan.com/" target="_blank" href="http://www.crashplan.com/"&gt;http://www.crashplan.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="r98d10"&gt;Thanks&lt;/h3&gt;
+&lt;ul id="r98d11"&gt;
+&lt;li id="r98d12"&gt; Libsyn.com - &lt;a rel="nofollow" id="r98d13" target="_blank" href="http://www.libsyn.com/"&gt;http://www.libsyn.com&lt;/a&gt; - for hosting and bandwidth &lt;/li&gt;
+&lt;li id="r98d14"&gt;Feedburner.com - &lt;a rel="nofollow" id="r98d18" target="_blank" href="http://www.feedburner.com/"&gt;http://www.feedburner.com&lt;/a&gt; - for feed redirect&lt;/li&gt;
+&lt;li id="r98d19"&gt;&lt;a rel="nofollow" id="r98d20" title="Kirsty Doherty" target="_blank" href="http://www.flowerthepa.co.uk/"&gt;Kirsty Doherty&lt;/a&gt;,&amp;nbsp;&lt;a rel="nofollow" id="r98d22" title="Amy Ehmann" target="_blank" href="http://designlotus.com/"&gt;Amy Ehmann&lt;/a&gt; for Java Posse artwork &lt;/li&gt;
+&lt;li id="h-gd"&gt;Theme Music: &lt;ul id="r98d33"&gt;
+&lt;li id="iaam"&gt;Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), &lt;ul&gt;
+&lt;li&gt;written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney.&lt;/li&gt;
+&lt;li&gt;Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad.&lt;/li&gt;
+&lt;li&gt;Re-produced with kind permission from "Loose" Bruce Kerr - &lt;a rel="nofollow" id="r98d32" title="http://loosebrucekerr.libsyn.com" target="_blank" href="http://loosebrucekerr.libsyn.com/"&gt;http://loosebrucekerr.libsyn.com&lt;/a&gt;&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://www.youtube.com/watch?v=TAX0gJt-aZg"&gt;http://www.youtube.com/watch?v=TAX0gJt-aZg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li id="r98d34"&gt;Closing - Juan Carlos Jimenez - In the House (Intro No. 1)&lt;br id="r98d35"/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul id="r98d36"&gt;
+&lt;li id="r98d37"&gt; To contact us: &lt;ul id="r98d38"&gt;
+&lt;li id="r98d39"&gt; Visit our homepage - &lt;a rel="nofollow" id="r98d40" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/li&gt;
+&lt;li id="x1gp"&gt; Post on our Google Group - &lt;a rel="nofollow" id="r98d42" title="http://groups.google.com/group/javaposse" target="_blank" href="http://groups.google.com/group/javaposse"&gt;http://groups.google.com/group/javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="howv"&gt;Pose a question on our Google Moderator group - &lt;a rel="nofollow" id="gl3y" title="http://tinyurl.com/q4javaposse" target="_blank" href="http://tinyurl.com/q4javaposse"&gt;http://tinyurl.com/q4javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="r98d43"&gt; Call us with questions and feedback - (408) 465-4626 &lt;/li&gt;
+&lt;li id="r98d44"&gt; Or send us email - &lt;a rel="nofollow" id="r98d45" target="_blank" href="https://mail.google.com/mail?view=cm&amp;amp;tf=0&amp;amp;to=//javaposse@gmail.com/"&gt;javaposse@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br id="ju.v"/&gt; The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall&lt;br id="ja2k"/&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/javaposse?a=uKB4c1enzK8:ENTE4nWBu8U:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/javaposse?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+         <guid isPermaLink="false">http://javaposse.com/index.php?post_id=586968#</guid>
+         <pubDate>Fri, 26 Feb 2010 09:40:00 -0800</pubDate>
+         <category>podcasts</category>
+         <enclosure length="48608914" url="http://media.libsyn.com/media/dickwall/JavaPosse298.mp3" type="audio/mpeg" />
+      <author>javaposse@gmail.com (Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall)</author><media:content url="http://media.libsyn.com/media/dickwall/JavaPosse298.mp3" fileSize="48608914" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>Newscast for Feb 25th 2010 Fully formatted shownotes can always be found at http://javaposse.com Please join us for the Java Posse Roundup 2010 in beautiful Crested Butte, CO. for an unconference of fantastic geek proportions. To find out more: http://www</itunes:subtitle><itunes:author>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:author><itunes:summary>Newscast for Feb 25th 2010 Fully formatted shownotes can always be found at http://javaposse.com Please join us for the Java Posse Roundup 2010 in beautiful Crested Butte, CO. for an unconference of fantastic geek proportions. To find out more: http://www.mindviewinc.com/Conferences/JavaPosseRoundup/ To sign up: http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at: http://tinyurl.com/jproundup2010 Details begin to emerge about Oracle/Sun merging the JRockit and Sun Hotspot JVMs. https://channelsun.sun.com/media/show/15028 http://www.infoworld.com/d/developer-world/oracle-set-merge-java-virtual-machines-935 http://www.oracle.com/technology/products/jrockit/missioncontrol/index.html &amp;nbsp;NetBeans 6.9 Milestone 1 http://wiki.netbeans.org/NewAndNoteworthy69m1 http://wiki.netbeans.org/FitnessViaPostMortem JavaOne call for papers is now open http://blogs.sun.com/theaquarium/entry/javaone_2010_call_for_papers http://java.dzone.com/announcements/javaone-call-papers Application of the week - CrashPlan http://crashplan.com Quick News JavaFX is seeing active duty in the Winter Olympics http://terrencebarr.wordpress.com/2010/02/11/javafx-powers-vancouver-winter-olympics/ ScalaWags With the approaching release of Scala 2.8, Lift is being updated as well. http://www.scala-lang.org/node/5236 http://blog.lostlake.org/index.php?/archives/98-Back-in-the-Goat-Saddle.html Listener Feedback Java based multiplayer game server open sourced Community site: www.cubeia.org Corporate site: www.cubeia.com More about Firebase: http://www.cubeia.com/index.php/products/firebase Backgammon on Firebase: http://www.jadestone.se/index.php?page=backgammon Mahjong on Firebase: http://www.mahjongexpress.com/ BioGroovy http://biogroovy.open-bio.org The TempoPosse http://tempoposse.herod.net Online backup suggestions: http://www.backblaze.com/ http://www.crashplan.com/ Thanks Libsyn.com - http://www.libsyn.com - for hosting and bandwidth Feedburner.com - http://www.feedburner.com - for feed redirect Kirsty Doherty,&amp;nbsp;Amy Ehmann for Java Posse artwork Theme Music: Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney. Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad. Re-produced with kind permission from "Loose" Bruce Kerr - http://loosebrucekerr.libsyn.com&amp;nbsp;http://www.youtube.com/watch?v=TAX0gJt-aZg Closing - Juan Carlos Jimenez - In the House (Intro No. 1) To contact us: Visit our homepage - http://javaposse.com Post on our Google Group - http://groups.google.com/group/javaposse Pose a question on our Google Moderator group - http://tinyurl.com/q4javaposse Call us with questions and feedback - (408) 465-4626 Or send us email - javaposse@gmail.com The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall</itunes:summary><itunes:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</itunes:keywords></item>
+      <item>
+         <title>Java Posse #297 - Newscast for Feb 11th 2010</title>
+         <link>http://javaposse.com/index.php?post_id=581746#</link>
+         <description>&lt;div&gt;
+&lt;h2 id="r98d0"&gt;Newscast for Feb 11th 2010&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div&gt;Fully formatted shownotes can always be found at &lt;a rel="nofollow" id="r98d3" title="http://javaposse.com" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Please join us for the Java Posse Roundup 2010 in beautiful Crested Butte, CO. for an unconference of fantastic geek proportions.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;To find out more:&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" id="shh3" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;To sign up:&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" id="jq8-" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at:&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" id="h3yb" style="color:#551a8b;" title="http://tinyurl.com/jproundup2010" target="_blank" href="http://tinyurl.com/jproundup2010"&gt;http://tinyurl.com/jproundup2010&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Correction about Kenai going away - the kenai.com site is being closed, but the technology will be used on Java.net instead.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="efso" title="http://weblogs.java.net/blog/editor/archive/2010/02/08/kenaicom-infrastructure-will-be-coming-javanet" target="_blank" href="http://weblogs.java.net/blog/editor/archive/2010/02/08/kenaicom-infrastructure-will-be-coming-javanet"&gt;http://weblogs.java.net/blog/editor/archive/2010/02/08/&lt;br /&gt;kenaicom-infrastructure-will-be-coming-javanet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Oracle/Sun, more technical details on the Java product lines
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="ianc" title="http://oracle.com.edgesuite.net/ivt/4000/8104/9236/12627/lobby_external_flash_clean_480x360/default.htm" target="_blank" href="http://oracle.com.edgesuite.net/ivt/4000/8104/9236/12627/lobby_external_flash_clean_480x360/default.htm"&gt;http://oracle.com.edgesuite.net/ivt/4000/8104/9236/12627/&lt;br /&gt;lobby_external_flash_clean_480x360/default.htm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="lrc4" title="http://blogs.sun.com/jag/entry/so_long_old_friend" target="_blank" href="http://blogs.sun.com/jag/entry/so_long_old_friend"&gt;http://blogs.sun.com/jag/entry/so_long_old_friend&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="s16n" title="http://blogs.sun.com/theaquarium/entry/summary_of_post_oracle_changes" target="_blank" href="http://blogs.sun.com/theaquarium/entry/summary_of_post_oracle_changes"&gt;http://blogs.sun.com/theaquarium/entry/summary_of_post_oracle_changes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon are releasing a development SDK for Kindle applications, starting with a limited Beta next month.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="e2hk" title="http://www.amazon.com/gp/feature.html/?ie=UTF8&amp;amp;docId=1000476231" target="_blank" href="http://www.amazon.com/gp/feature.html/?ie=UTF8&amp;amp;docId=1000476231"&gt;http://www.amazon.com/gp/feature.html/?ie=UTF8&amp;amp;docId=1000476231&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="k0wr" title="http://www.wired.co.uk/news/archive/2010-01/21/amazon-kindle-to-get-apps-and-games.aspx" target="_blank" href="http://www.wired.co.uk/news/archive/2010-01/21/amazon-kindle-to-get-apps-and-games.aspx"&gt;http://www.wired.co.uk/news/archive/2010-01/21/&lt;br /&gt;amazon-kindle-to-get-apps-and-games.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Online/cloud storage
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="spph" title="http://hunch.com/online-backup-services/" target="_blank" href="http://hunch.com/online-backup-services/"&gt;http://hunch.com/online-backup-services/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Buzz
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="o6vo" title="http://www.google.com/buzz" target="_blank" href="http://www.google.com/buzz"&gt;http://www.google.com/buzz&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Quick News&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Developer.com has a guide to the new features in the recently released Spring 3.0.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="fp-4" title="http://www.developer.com/java/web/article.php/3861826/article.htm" target="_blank" href="http://www.developer.com/java/web/article.php/3861826/article.htm"&gt;http://www.developer.com/java/web/article.php/3861826/article.htm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Felipe Gaucho has a wrap-up from the recent JFokus in Stockholm, Sweden.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="nwqq" title="http://www.java.net/blog/felipegaucho/archive/2010/01/30/jfokus-2010-wrap" target="_blank" href="http://www.java.net/blog/felipegaucho/archive/2010/01/30/jfokus-2010-wrap"&gt;http://www.java.net/blog/felipegaucho/archive/2010/01/30/jfokus-2010-wrap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;The Gnu compiler collection (gcc) steering committee has announced that it will support Google go from version 4.5 of gcc forwards.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="oenm" title="http://java.dzone.com/dose/dzone-daily-dose-129" target="_blank" href="http://java.dzone.com/dose/dzone-daily-dose-129"&gt;http://java.dzone.com/dose/dzone-daily-dose-129&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;EclipseCon 2010.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="zy1k" title="http://www.eclipse.org/org/press-release/20100121_eclipsecon.php" target="_blank" href="http://www.eclipse.org/org/press-release/20100121_eclipsecon.php"&gt;http://www.eclipse.org/org/press-release/20100121_eclipsecon.php&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Jazoon 2010.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="gc_2" title="http://weblogs.java.net/blog/fabriziogiudici/archive/2010/02/08/young-speakers-remember-jazoon-deadline-apr-4" target="_blank" href="http://weblogs.java.net/blog/fabriziogiudici/archive/2010/02/08/young-speakers-remember-jazoon-deadline-apr-4"&gt;http://weblogs.java.net/blog/fabriziogiudici/archive/2010/02/08/&lt;br /&gt;young-speakers-remember-jazoon-deadline-apr-4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Myriad claims that they have a higher performance Dalvik engine for Android devices.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="qy1s" title="http://www.myriadgroup.com/" target="_blank" href="http://www.myriadgroup.com/"&gt;http://www.myriadgroup.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Oracle has announced a large number of Oracle+Sun welcome event days to take place around the world in March and April of this year.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="n2rr" title="http://www.oracle.com/events/welcomesun/index.html#northamerica" target="_blank" href="http://www.oracle.com/events/welcomesun/index.html#northamerica"&gt;http://www.oracle.com/events/welcomesun/index.html#northamerica&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Apache Ant 1.8 has been released.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="p0hy" title="http://ant.apache.org/" target="_blank" href="http://ant.apache.org/"&gt;http://ant.apache.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Apache Jackrabbit 2.0 has also been released.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="gazn" title="http://www.apache.org/dist/jackrabbit/2.0.0/RELEASE-NOTES.txt" target="_blank" href="http://www.apache.org/dist/jackrabbit/2.0.0/RELEASE-NOTES.txt"&gt;http://www.apache.org/dist/jackrabbit/2.0.0/RELEASE-NOTES.txt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Flexycore's iSpectrum promises Java app development for the iPhone.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="qg2t" title="http://www.flexycore.com/en/products.html" target="_blank" href="http://www.flexycore.com/en/products.html"&gt;http://www.flexycore.com/en/products.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Project Darkstar.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="bjfh" title="http://www.projectdarkstar.com/forum/?topic=1540.msg10397#msg10397" target="_blank" href="http://www.projectdarkstar.com/forum/?topic=1540.msg10397#msg10397"&gt;http://www.projectdarkstar.com/forum/?topic=1540.msg10397#msg10397&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="g63k" title="http://www.projectdarkstar.com/" target="_blank" href="http://www.projectdarkstar.com/"&gt;http://www.projectdarkstar.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="unsh" title="http://github.com/Cyberqat/Red-Dwarf" target="_blank" href="http://github.com/Cyberqat/Red-Dwarf"&gt;http://github.com/Cyberqat/Red-Dwarf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;ScalaWags&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The first Scala 2.8 Beta is out.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="i_qb" title="http://www.scala-lang.org/node/4587" target="_blank" href="http://www.scala-lang.org/node/4587"&gt;http://www.scala-lang.org/node/4587&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="asor" title="http://java.dzone.com/news/scala-28-improves-scala-ide" target="_blank" href="http://java.dzone.com/news/scala-28-improves-scala-ide"&gt;http://java.dzone.com/news/scala-28-improves-scala-ide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Groovy, Baby&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;DZone has an article about the best groovy modules you may not know about.
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="jz7." title="http://groovy.dzone.com/articles/best-groovy-projects-you-might" target="_blank" href="http://groovy.dzone.com/articles/best-groovy-projects-you-might"&gt;http://groovy.dzone.com/articles/best-groovy-projects-you-might&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3&gt;Listener Feedback&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Android based competition
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="o4-9" title="http://www.engadget.com/2010/01/29/michael-dell-pulls-mini-5-android-tablet-from-his-parka-offers/" target="_blank" href="http://www.engadget.com/2010/01/29/michael-dell-pulls-mini-5-android-tablet-from-his-parka-offers/"&gt;http://www.engadget.com/2010/01/29/&lt;br /&gt;michael-dell-pulls-mini-5-android-tablet-from-his-parka-offers/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="qd-e" title="http://www.itworld.com/personal-tech/94697/msi-ready-launch-ipad-alternative" target="_blank" href="http://www.itworld.com/personal-tech/94697/msi-ready-launch-ipad-alternative"&gt;http://www.itworld.com/personal-tech/94697/msi-ready-launch-ipad-alternative&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="r98d10"&gt;Thanks&lt;/h3&gt;
+&lt;ul id="r98d11"&gt;
+&lt;li id="r98d12"&gt; Libsyn.com - &lt;a rel="nofollow" id="r98d13" target="_blank" href="http://www.libsyn.com/"&gt;http://www.libsyn.com&lt;/a&gt; - for hosting and bandwidth &lt;/li&gt;
+&lt;li id="r98d14"&gt;Feedburner.com - &lt;a rel="nofollow" id="r98d18" target="_blank" href="http://www.feedburner.com/"&gt;http://www.feedburner.com&lt;/a&gt; - for feed redirect&lt;/li&gt;
+&lt;li id="r98d19"&gt;&lt;a rel="nofollow" id="r98d20" title="Kirsty Doherty" target="_blank" href="http://www.flowerthepa.co.uk/"&gt;Kirsty Doherty&lt;/a&gt;,&amp;nbsp;&lt;a rel="nofollow" id="r98d22" title="Amy Ehmann" target="_blank" href="http://designlotus.com/"&gt;Amy Ehmann&lt;/a&gt; for Java Posse artwork &lt;/li&gt;
+&lt;li id="h-gd"&gt;Theme Music:
+&lt;ul id="r98d33"&gt;
+&lt;li id="iaam"&gt;Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI),
+&lt;ul&gt;
+&lt;li&gt;written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney.&lt;/li&gt;
+&lt;li&gt;Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad.&lt;/li&gt;
+&lt;li&gt;Re-produced with kind permission from "Loose" Bruce Kerr - &lt;a rel="nofollow" id="r98d32" title="http://loosebrucekerr.libsyn.com" target="_blank" href="http://loosebrucekerr.libsyn.com/"&gt;http://loosebrucekerr.libsyn.com&lt;/a&gt;&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://www.youtube.com/watch?v=TAX0gJt-aZg"&gt;http://www.youtube.com/watch?v=TAX0gJt-aZg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li id="r98d34"&gt;Closing - Juan Carlos Jimenez - In the House (Intro No. 1)&lt;br id="r98d35"/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul id="r98d36"&gt;
+&lt;li id="r98d37"&gt; To contact us: &lt;ul id="r98d38"&gt;
+&lt;li id="r98d39"&gt; Visit our homepage - &lt;a rel="nofollow" id="r98d40" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/li&gt;
+&lt;li id="x1gp"&gt; Post on our Google Group - &lt;a rel="nofollow" id="r98d42" title="http://groups.google.com/group/javaposse" target="_blank" href="http://groups.google.com/group/javaposse"&gt;http://groups.google.com/group/javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="howv"&gt;Pose a question on our Google Moderator group - &lt;a rel="nofollow" id="gl3y" title="http://tinyurl.com/q4javaposse" target="_blank" href="http://tinyurl.com/q4javaposse"&gt;http://tinyurl.com/q4javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="r98d43"&gt; Call us with questions and feedback - (408) 465-4626 &lt;/li&gt;
+&lt;li id="r98d44"&gt; Or send us email - &lt;a rel="nofollow" id="r98d45" target="_blank" href="https://mail.google.com/mail?view=cm&amp;amp;tf=0&amp;amp;to=//javaposse@gmail.com/"&gt;javaposse@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br id="ju.v"/&gt; The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall&lt;br id="ja2k"/&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/javaposse?a=XWdhRSHPOyY:9fZQVtOHrM4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/javaposse?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+         <guid isPermaLink="false">http://javaposse.com/index.php?post_id=581746#</guid>
+         <pubDate>Fri, 12 Feb 2010 16:39:00 -0800</pubDate>
+         <category>podcasts</category>
+         <enclosure length="68276528" url="http://media.libsyn.com/media/dickwall/JavaPosse297.mp3" type="audio/mpeg" />
+      <author>javaposse@gmail.com (Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall)</author><media:content url="http://media.libsyn.com/media/dickwall/JavaPosse297.mp3" fileSize="68276528" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle> Newscast for Feb 11th 2010 Fully formatted shownotes can always be found at http://javaposse.com Please join us for the Java Posse Roundup 2010 in beautiful Crested Butte, CO. for an unconference of fantastic geek proportions. To find out more: http://ww</itunes:subtitle><itunes:author>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:author><itunes:summary> Newscast for Feb 11th 2010 Fully formatted shownotes can always be found at http://javaposse.com Please join us for the Java Posse Roundup 2010 in beautiful Crested Butte, CO. for an unconference of fantastic geek proportions. To find out more: http://www.mindviewinc.com/Conferences/JavaPosseRoundup/ To sign up: http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at: http://tinyurl.com/jproundup2010 Correction about Kenai going away - the kenai.com site is being closed, but the technology will be used on Java.net instead. http://weblogs.java.net/blog/editor/archive/2010/02/08/ kenaicom-infrastructure-will-be-coming-javanet Oracle/Sun, more technical details on the Java product lines http://oracle.com.edgesuite.net/ivt/4000/8104/9236/12627/ lobby_external_flash_clean_480x360/default.htm http://blogs.sun.com/jag/entry/so_long_old_friend http://blogs.sun.com/theaquarium/entry/summary_of_post_oracle_changes Amazon are releasing a development SDK for Kindle applications, starting with a limited Beta next month. http://www.amazon.com/gp/feature.html/?ie=UTF8&amp;amp;docId=1000476231 http://www.wired.co.uk/news/archive/2010-01/21/ amazon-kindle-to-get-apps-and-games.aspx Online/cloud storage http://hunch.com/online-backup-services/ Google Buzz http://www.google.com/buzz Quick News Developer.com has a guide to the new features in the recently released Spring 3.0. http://www.developer.com/java/web/article.php/3861826/article.htm Felipe Gaucho has a wrap-up from the recent JFokus in Stockholm, Sweden. http://www.java.net/blog/felipegaucho/archive/2010/01/30/jfokus-2010-wrap The Gnu compiler collection (gcc) steering committee has announced that it will support Google go from version 4.5 of gcc forwards. http://java.dzone.com/dose/dzone-daily-dose-129 EclipseCon 2010. http://www.eclipse.org/org/press-release/20100121_eclipsecon.php Jazoon 2010. http://weblogs.java.net/blog/fabriziogiudici/archive/2010/02/08/ young-speakers-remember-jazoon-deadline-apr-4 Myriad claims that they have a higher performance Dalvik engine for Android devices. http://www.myriadgroup.com/ Oracle has announced a large number of Oracle+Sun welcome event days to take place around the world in March and April of this year. http://www.oracle.com/events/welcomesun/index.html#northamerica Apache Ant 1.8 has been released. http://ant.apache.org/ Apache Jackrabbit 2.0 has also been released. http://www.apache.org/dist/jackrabbit/2.0.0/RELEASE-NOTES.txt Flexycore's iSpectrum promises Java app development for the iPhone. http://www.flexycore.com/en/products.html Project Darkstar. http://www.projectdarkstar.com/forum/?topic=1540.msg10397#msg10397 http://www.projectdarkstar.com/ http://github.com/Cyberqat/Red-Dwarf ScalaWags The first Scala 2.8 Beta is out. http://www.scala-lang.org/node/4587 http://java.dzone.com/news/scala-28-improves-scala-ide Groovy, Baby DZone has an article about the best groovy modules you may not know about. http://groovy.dzone.com/articles/best-groovy-projects-you-might &amp;nbsp; Listener Feedback Android based competition http://www.engadget.com/2010/01/29/ michael-dell-pulls-mini-5-android-tablet-from-his-parka-offers/ http://www.itworld.com/personal-tech/94697/msi-ready-launch-ipad-alternative Thanks Libsyn.com - http://www.libsyn.com - for hosting and bandwidth Feedburner.com - http://www.feedburner.com - for feed redirect Kirsty Doherty,&amp;nbsp;Amy Ehmann for Java Posse artwork Theme Music: Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney. Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad. Re-produced with kind permission from "Loose" Bruce Kerr - http://loosebrucekerr.libsyn.com&amp;nbsp;http://www.youtube.com/watch?v=TAX0gJt-aZg Closing </itunes:summary><itunes:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</itunes:keywords></item>
+      <item>
+         <title>Java Posse #296 - Devoxx 2009 Interview with Stephen Colebourne</title>
+         <link>http://javaposse.com/index.php?post_id=577886#</link>
+         <description>&lt;h2&gt;Devoxx Interview with Stephen Colebourne&lt;/h2&gt;
+&lt;div&gt;Fully formatted shownotes can always be found at &lt;a rel="nofollow" id="r98d3" title="http://javaposse.com" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;This interview is also available in video form at the new Parleys.com.&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" target="_blank" href="http://parleys.com/d/1845"&gt;http://parleys.com/d/1845&lt;/a&gt;, Mark Reinhold's talk about adding closures to Java is also available at Parleys: &lt;a rel="nofollow" target="_blank" href="http://parleys.com/d/1568"&gt;http://parleys.com/d/1568&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;Please join us for the Java Posse Roundup 2010 in beautiful Crested Butte, CO. for an unconference of fantastic geek proportions.&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;To find out more:&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" id="shh3" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;To sign up:&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" id="jq8-" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at:&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" id="h3yb" style="color:#551a8b;" title="http://tinyurl.com/jproundup2010" target="_blank" href="http://tinyurl.com/jproundup2010"&gt;http://tinyurl.com/jproundup2010&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;Stephen's Blog &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="gm_x" title="http://www.jroller.com/scolebourne/" target="_blank" href="http://www.jroller.com/scolebourne/"&gt;http://www.jroller.com/scolebourne/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mark Reinhold on Closures for Java &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="y4.r" title="http://blogs.sun.com/mr/entry/closures" target="_blank" href="http://blogs.sun.com/mr/entry/closures"&gt;http://blogs.sun.com/mr/entry/closures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;FCM Proposal &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="lr.l" title="http://docs.google.com/Doc?id=ddhp95vd_0f7mcns" target="_blank" href="http://docs.google.com/Doc?id=ddhp95vd_0f7mcns"&gt;http://docs.google.com/Doc?id=ddhp95vd_0f7mcns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="sz9r" title="http://tinyurl.com/devoxx2009fcm" target="_blank" href="http://tinyurl.com/devoxx2009fcm"&gt;http://tinyurl.com/devoxx2009fcm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Neal Gafter's Closures for Java proposal 0.6a &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="ato4" title="http://www.javac.info/closures-v06a.html" target="_blank" href="http://www.javac.info/closures-v06a.html"&gt;http://www.javac.info/closures-v06a.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Joda time &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="tqyr" title="http://joda-time.sourceforge.net/" target="_blank" href="http://joda-time.sourceforge.net/"&gt;http://joda-time.sourceforge.net/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Joda Money &lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="v:jc" title="http://joda-money.sourceforge.net/" target="_blank" href="http://joda-money.sourceforge.net/"&gt;http://joda-money.sourceforge.net/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3&gt;Thanks&lt;/h3&gt;
+&lt;div&gt;
+&lt;ul id="r98d11"&gt;
+&lt;li id="r98d12"&gt; Libsyn.com - &lt;a rel="nofollow" id="r98d13" target="_blank" href="http://www.libsyn.com/"&gt;http://www.libsyn.com&lt;/a&gt; - for hosting and bandwidth &lt;/li&gt;
+&lt;li id="r98d14"&gt;Feedburner.com - &lt;a rel="nofollow" id="r98d18" target="_blank" href="http://www.feedburner.com/"&gt;http://www.feedburner.com&lt;/a&gt; - for feed redirect&lt;/li&gt;
+&lt;li id="r98d19"&gt; &lt;a rel="nofollow" id="r98d20" title="Kirsty Doherty" target="_blank" href="http://www.flowerthepa.co.uk/"&gt;Kirsty Doherty&lt;/a&gt;,&amp;nbsp;&lt;a rel="nofollow" id="r98d22" title="Amy Ehmann" target="_blank" href="http://designlotus.com/"&gt;Amy Ehmann&lt;/a&gt; for Java Posse artwork &lt;/li&gt;
+&lt;li id="h-gd"&gt;Theme Music: &lt;ul id="r98d33"&gt;
+&lt;li id="iaam"&gt;Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), &lt;ul&gt;
+&lt;li&gt;written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney.&lt;/li&gt;
+&lt;li&gt;Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad.&lt;/li&gt;
+&lt;li&gt;Re-produced with kind permission from "Loose" Bruce Kerr - &lt;a rel="nofollow" id="r98d32" title="http://loosebrucekerr.libsyn.com" target="_blank" href="http://loosebrucekerr.libsyn.com/"&gt;http://loosebrucekerr.libsyn.com&lt;/a&gt;&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://www.youtube.com/watch?v=TAX0gJt-aZg"&gt;http://www.youtube.com/watch?v=TAX0gJt-aZg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li id="r98d34"&gt;Closing - Juan Carlos Jimenez - In the House (Intro No. 1)&lt;br id="r98d35"/&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul id="r98d36"&gt;
+&lt;li id="r98d37"&gt; To contact us: &lt;ul id="r98d38"&gt;
+&lt;li id="r98d39"&gt; Visit our homepage - &lt;a rel="nofollow" id="r98d40" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt; &lt;/li&gt;
+&lt;li id="x1gp"&gt; Post on our Google Group - &lt;a rel="nofollow" id="r98d42" title="http://groups.google.com/group/javaposse" target="_blank" href="http://groups.google.com/group/javaposse"&gt;http://groups.google.com/group/javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="howv"&gt;Pose a question on our Google Moderator group - &lt;a rel="nofollow" id="gl3y" title="http://tinyurl.com/q4javaposse" target="_blank" href="http://tinyurl.com/q4javaposse"&gt;http://tinyurl.com/q4javaposse&lt;/a&gt; &lt;/li&gt;
+&lt;li id="r98d43"&gt; Call us with questions and feedback - (408) 465-4626 &lt;/li&gt;
+&lt;li id="r98d44"&gt; Or send us email - &lt;a rel="nofollow" id="r98d45" target="_blank" href="https://mail.google.com/mail?view=cm&amp;amp;tf=0&amp;amp;to=//javaposse@gmail.com/"&gt;javaposse@gmail.com&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br id="ju.v"/&gt; The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall&lt;br id="ja2k"/&gt;&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/javaposse?a=-Tj7avW1wQ8:C8Kc3ncbn8k:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/javaposse?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+         <guid isPermaLink="false">http://javaposse.com/index.php?post_id=577886#</guid>
+         <pubDate>Tue, 02 Feb 2010 09:00:00 -0800</pubDate>
+         <category>podcasts</category>
+         <enclosure length="20030255" url="http://media.libsyn.com/media/dickwall/JavaPosse296.mp3" type="audio/mpeg" />
+      <author>javaposse@gmail.com (Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall)</author><media:content url="http://media.libsyn.com/media/dickwall/JavaPosse296.mp3" fileSize="20030255" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>Devoxx Interview with Stephen Colebourne Fully formatted shownotes can always be found at http://javaposse.com This interview is also available in video form at the new Parleys.com. http://parleys.com/d/1845, Mark Reinhold's talk about adding closures to </itunes:subtitle><itunes:author>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:author><itunes:summary>Devoxx Interview with Stephen Colebourne Fully formatted shownotes can always be found at http://javaposse.com This interview is also available in video form at the new Parleys.com. http://parleys.com/d/1845, Mark Reinhold's talk about adding closures to Java is also available at Parleys: http://parleys.com/d/1568 Please join us for the Java Posse Roundup 2010 in beautiful Crested Butte, CO. for an unconference of fantastic geek proportions. To find out more: http://www.mindviewinc.com/Conferences/JavaPosseRoundup/ To sign up: http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at: http://tinyurl.com/jproundup2010 Stephen's Blog http://www.jroller.com/scolebourne/ Mark Reinhold on Closures for Java http://blogs.sun.com/mr/entry/closures FCM Proposal http://docs.google.com/Doc?id=ddhp95vd_0f7mcns http://tinyurl.com/devoxx2009fcm Neal Gafter's Closures for Java proposal 0.6a http://www.javac.info/closures-v06a.html Joda time http://joda-time.sourceforge.net/ Joda Money http://joda-money.sourceforge.net/ Thanks Libsyn.com - http://www.libsyn.com - for hosting and bandwidth Feedburner.com - http://www.feedburner.com - for feed redirect Kirsty Doherty,&amp;nbsp;Amy Ehmann for Java Posse artwork Theme Music: Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney. Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad. Re-produced with kind permission from "Loose" Bruce Kerr - http://loosebrucekerr.libsyn.com&amp;nbsp;http://www.youtube.com/watch?v=TAX0gJt-aZg Closing - Juan Carlos Jimenez - In the House (Intro No. 1) To contact us: Visit our homepage - http://javaposse.com Post on our Google Group - http://groups.google.com/group/javaposse Pose a question on our Google Moderator group - http://tinyurl.com/q4javaposse Call us with questions and feedback - (408) 465-4626 Or send us email - javaposse@gmail.com The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall &amp;nbsp;</itunes:summary><itunes:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</itunes:keywords></item>
+      <item>
+         <title>Java Posse #295 - Big News from Oracle/Sun and Apple</title>
+         <link>http://javaposse.com/index.php?post_id=576095#</link>
+         <description>&lt;div&gt;
+&lt;h2 id="r98d0"&gt;Oracle/Sun and Apple announcements - 28th Jan 2009&lt;/h2&gt;
+Fully formatted shownotes can always be found at &lt;a rel="nofollow" id="r98d3" title="http://javaposse.com" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Java Posse Roundup - use your spring JavaOne budget! - last few days of the early bird pricing. Also be sure to sort out accommodation, etc.&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;To find out more:&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" id="shh3" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;To sign up:&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" id="jq8-" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at:&lt;/div&gt;
+&lt;div&gt;&lt;a rel="nofollow" id="h3yb" title="http://tinyurl.com/jproundup2010" target="_blank" href="http://tinyurl.com/jproundup2010"&gt;http://tinyurl.com/jproundup2010&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;Only two news items for this one - the Sun/Oracle announcements, and the Apple iPad (not much Java in this part, so skip if you don't care).&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;JavaOne 2010
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="sopp" title="http://java.dzone.com/news/javaone-lives" target="_blank" href="http://java.dzone.com/news/javaone-lives"&gt;http://java.dzone.com/news/javaone-lives&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The deal has closed
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="uppu" title="http://news.cnet.com/8301-30685_3-20000019-264.html" target="_blank" href="http://news.cnet.com/8301-30685_3-20000019-264.html"&gt;http://news.cnet.com/8301-30685_3-20000019-264.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="oper" title="http://www.oracle.com/technology/community/sun-oracle-community-continuity.html" target="_blank" href="http://www.oracle.com/technology/community/sun-oracle-community-continuity.html"&gt;http://www.oracle.com/technology/community/sun-oracle-community-continuity.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="mals" title="http://www.sfgate.com/cgi-bin/article.cgi?f=/g/a/2010/01/27/urnidgns852573C400693880002576B900002824.DTL" target="_blank" href="http://www.sfgate.com/cgi-bin/article.cgi?f=/g/a/2010/01/27/urnidgns852573C400693880002576B900002824.DTL"&gt;http://www.sfgate.com/cgi-bin/article.cgi?f=/g/a/2010/01/27/&lt;br /&gt;urnidgns852573C400693880002576B900002824.DTL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;Apple iPad
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="nofollow" id="mo:j" title="http://www.apple.com/ipad/" target="_blank" href="http://www.apple.com/ipad/"&gt;http://www.apple.com/ipad/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;font size="3"&gt;Thanks&lt;/font&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;ul id="r98d11"&gt;
+&lt;li id="r98d12"&gt; Libsyn.com - &lt;a rel="nofollow" id="r98d13" target="_blank" href="http://www.libsyn.com/"&gt;http://www.libsyn.com&lt;/a&gt; - for hosting and bandwidth &lt;/li&gt;
+&lt;li id="r98d14"&gt; Feedburner.com - &lt;a rel="nofollow" id="r98d18" target="_blank" href="http://www.feedburner.com/"&gt;http://www.feedburner.com&lt;/a&gt; - for feed redirect &lt;/li&gt;
+&lt;li id="r98d19"&gt; &lt;a rel="nofollow" id="r98d20" title="Kirsty Doherty" target="_blank" href="http://www.flowerthepa.co.uk/"&gt;Kirsty Doherty&lt;/a&gt;,&amp;nbsp;&lt;a rel="nofollow" id="r98d22" title="Amy Ehmann" target="_blank" href="http://designlotus.com/"&gt;Amy Ehmann&lt;/a&gt; for Java Posse artwork &lt;/li&gt;
+&lt;li id="h-gd"&gt; Theme Music: &lt;ul id="r98d33"&gt;
+&lt;li id="iaam"&gt; Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), &lt;ul&gt;
+&lt;li&gt; written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney. &lt;/li&gt;
+&lt;li&gt; Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad. &lt;/li&gt;
+&lt;li&gt; Re-produced with kind permission from "Loose" Bruce Kerr - &lt;a rel="nofollow" id="r98d32" title="http://loosebrucekerr.libsyn.com" target="_blank" href="http://loosebrucekerr.libsyn.com/"&gt;http://loosebrucekerr.libsyn.com&lt;/a&gt;&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://www.youtube.com/watch?v=TAX0gJt-aZg"&gt;http://www.youtube.com/watch?v=TAX0gJt-aZg&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li id="r98d34"&gt; Closing - Juan Carlos Jimenez - In the House (Intro No. 1)&lt;br id="r98d35"/&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul id="r98d36"&gt;
+&lt;li id="r98d37"&gt; To contact us: &lt;ul id="r98d38"&gt;
+&lt;li id="r98d39"&gt; Visit our homepage - &lt;a rel="nofollow" id="r98d40" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt; &lt;/li&gt;
+&lt;li id="x1gp"&gt; Post on our Google Group - &lt;a rel="nofollow" id="r98d42" title="http://groups.google.com/group/javaposse" target="_blank" href="http://groups.google.com/group/javaposse"&gt;http://groups.google.com/group/javaposse&lt;/a&gt; &lt;/li&gt;
+&lt;li id="howv"&gt; Pose a question on our Google Moderator group - &lt;a rel="nofollow" id="gl3y" title="http://tinyurl.com/q4javaposse" target="_blank" href="http://tinyurl.com/q4javaposse"&gt;http://tinyurl.com/q4javaposse&lt;/a&gt;&lt;/li&gt;
+&lt;li id="r98d43"&gt; Call us with questions and feedback - (408) 465-4626 &lt;/li&gt;
+&lt;li id="r98d44"&gt; Or send us email - &lt;a rel="nofollow" id="r98d45" target="_blank" href="https://mail.google.com/mail?view=cm&amp;amp;tf=0&amp;amp;to=//javaposse@gmail.com/"&gt;javaposse@gmail.com&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br id="ju.v"/&gt; The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall&lt;br id="ja2k"/&gt;&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/javaposse?a=LP_8UF88KTA:H2kbuba_Eeg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/javaposse?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+         <guid isPermaLink="false">http://javaposse.com/index.php?post_id=576095#</guid>
+         <pubDate>Thu, 28 Jan 2010 20:24:00 -0800</pubDate>
+         <category>podcasts</category>
+         <enclosure length="32836919" url="http://media.libsyn.com/media/dickwall/JavaPosse295.mp3" type="audio/mpeg" />
+      <author>javaposse@gmail.com (Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall)</author><media:content url="http://media.libsyn.com/media/dickwall/JavaPosse295.mp3" fileSize="32836919" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle> Oracle/Sun and Apple announcements - 28th Jan 2009 Fully formatted shownotes can always be found at http://javaposse.com Java Posse Roundup - use your spring JavaOne budget! - last few days of the early bird pricing. Also be sure to sort out accommodatio</itunes:subtitle><itunes:author>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:author><itunes:summary> Oracle/Sun and Apple announcements - 28th Jan 2009 Fully formatted shownotes can always be found at http://javaposse.com Java Posse Roundup - use your spring JavaOne budget! - last few days of the early bird pricing. Also be sure to sort out accommodation, etc. To find out more: http://www.mindviewinc.com/Conferences/JavaPosseRoundup/ To sign up: http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at: http://tinyurl.com/jproundup2010 Only two news items for this one - the Sun/Oracle announcements, and the Apple iPad (not much Java in this part, so skip if you don't care). JavaOne 2010 http://java.dzone.com/news/javaone-lives The deal has closed http://news.cnet.com/8301-30685_3-20000019-264.html http://www.oracle.com/technology/community/sun-oracle-community-continuity.html http://www.sfgate.com/cgi-bin/article.cgi?f=/g/a/2010/01/27/ urnidgns852573C400693880002576B900002824.DTL Apple iPad http://www.apple.com/ipad/ Thanks Libsyn.com - http://www.libsyn.com - for hosting and bandwidth Feedburner.com - http://www.feedburner.com - for feed redirect Kirsty Doherty,&amp;nbsp;Amy Ehmann for Java Posse artwork Theme Music: Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney. Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad. Re-produced with kind permission from "Loose" Bruce Kerr - http://loosebrucekerr.libsyn.com&amp;nbsp;http://www.youtube.com/watch?v=TAX0gJt-aZg Closing - Juan Carlos Jimenez - In the House (Intro No. 1) To contact us: Visit our homepage - http://javaposse.com Post on our Google Group - http://groups.google.com/group/javaposse Pose a question on our Google Moderator group - http://tinyurl.com/q4javaposse Call us with questions and feedback - (408) 465-4626 Or send us email - javaposse@gmail.com The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall &amp;nbsp;</itunes:summary><itunes:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</itunes:keywords></item>
+      <item>
+         <title>Java Posse #294 - Newscast for Jan 21st 2010</title>
+         <link>http://javaposse.com/index.php?post_id=573666#</link>
+         <description>&lt;div&gt;&lt;div&gt;&lt;h2 id="r98d0"&gt;Newscast for January 21st 2010&lt;br/&gt;&lt;/h2&gt; Fully formatted shownotes can always be found at &lt;a rel="nofollow" title="http://javaposse.com" id="r98d3" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;Please,
+join us for the Java Posse Roundup, March 16th to 19th in Crested
+Butte, CO, with a free JVM languages day on the 15th.&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;To find out more:&lt;/div&gt;&lt;a rel="nofollow" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/" id="t7:3"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/&lt;/a&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;To sign up:&lt;/div&gt;&lt;a rel="nofollow" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php" id="mm96"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php&lt;/a&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at:&lt;/div&gt;&lt;a rel="nofollow" title="http://tinyurl.com/jproundup2010" target="_blank" href="http://tinyurl.com/jproundup2010" id="y.a-"&gt;http://tinyurl.com/jproundup2010&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Android roundup&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://lifehacker.com/5443156/android-21s-best-features-in-screenshots" target="_blank" href="http://lifehacker.com/5443156/android-21s-best-features-in-screenshots" id="jkxu"&gt;http://lifehacker.com/5443156/android-21s-best-features-in-screenshots&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://developer.android.com/index.html" target="_blank" href="http://developer.android.com/index.html" id="gw45"&gt;http://developer.android.com/index.html&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.computerworld.com/s/article/9143027/Demand_for_Android_phones_makes_monstrous_250_jump" target="_blank" href="http://www.computerworld.com/s/article/9143027/Demand_for_Android_phones_makes_monstrous_250_jump" id="ae-f"&gt;http://www.computerworld.com/s/article/9143027/&lt;br/&gt;Demand_for_Android_phones_makes_monstrous_250_jump&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://gizmodo.com/5427938/how-carriers-and-phone-makers-are-strangling-android-and-how-google-could-save-it?skyline=true&amp;s=x" target="_blank" href="http://gizmodo.com/5427938/how-carriers-and-phone-makers-are-strangling-android-and-how-google-could-save-it?skyline=true&amp;s=x" id="pd:6"&gt;http://gizmodo.com/5427938/how-carriers-and-phone-makers-are-&lt;br/&gt;strangling-android-and-how-google-could-save-it?skyline=true&amp;amp;s=x&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://java.dzone.com/dose/dzone-daily-dose-119" target="_blank" href="http://java.dzone.com/dose/dzone-daily-dose-119" id="k_86"&gt;http://java.dzone.com/dose/dzone-daily-dose-119&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;ul&gt;&lt;li&gt;The JavaFX Composer has been released&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://wiki.netbeans.org/JavaFXComposer" target="_blank" href="http://wiki.netbeans.org/JavaFXComposer" id="rwrf"&gt;http://wiki.netbeans.org/JavaFXComposer&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.adam-bien.com/roller/abien/entry/java_fx_composer_designer_for1" target="_blank" href="http://www.adam-bien.com/roller/abien/entry/java_fx_composer_designer_for1" id="wjas"&gt;http://www.adam-bien.com/roller/abien/entry/java_fx_composer_designer_for1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;ul&gt;&lt;li&gt;Machinarium - flash game&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://machinarium.net" target="_blank" href="http://machinarium.net/" id="oa:t"&gt;http://machinarium.net&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;The EU looks close to approving the Oracle acquisition of Sun&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://java.dzone.com/dose/dzone-daily-dose-116" target="_blank" href="http://java.dzone.com/dose/dzone-daily-dose-116" id="askk"&gt;http://java.dzone.com/dose/dzone-daily-dose-116&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" style="color:rgb(85, 26, 139);" title="http://en.wikipedia.org/wiki/Michael_Widenius" target="_blank" href="http://en.wikipedia.org/wiki/Michael_Widenius" id="bafn"&gt;http://en.wikipedia.org/wiki/Michael_Widenius&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" style="color:rgb(85, 26, 139);" title="http://weblogs.java.net/blog/editor/archive/2010/01/01/poll-result-oracle-acquisition-sun-most-significant-2009" target="_blank" href="http://weblogs.java.net/blog/editor/archive/2010/01/01/poll-result-oracle-acquisition-sun-most-significant-2009" id="dwhq"&gt;http://weblogs.java.net/blog/editor/archive/2010/01/01/&lt;br/&gt;poll-result-oracle-acquisition-sun-most-significant-2009&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" style="color:rgb(85, 26, 139);" title="http://weblogs.java.net/blog/editor/archive/2009/12/23/speculations-2010-part-1-oracle-and-sun" target="_blank" href="http://weblogs.java.net/blog/editor/archive/2009/12/23/speculations-2010-part-1-oracle-and-sun" id="y0w:"&gt;http://weblogs.java.net/blog/editor/archive/2009/12/23/&lt;br/&gt;speculations-2010-part-1-oracle-and-sun&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" id="ek94" target="_blank" href="http://www.oracle.com/us/corporate/press/043821" title="http://www.oracle.com/us/corporate/press/043821"&gt;http://www.oracle.com/us/corporate/press/043821&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Is Maven the last choice?&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://kent.spillner.org/blog/work/2009/11/14/java-build-tools.html" target="_blank" href="http://kent.spillner.org/blog/work/2009/11/14/java-build-tools.html" id="k_yc"&gt;http://kent.spillner.org/blog/work/2009/11/14/java-build-tools.html&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;Codemash&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.codemash.org/" target="_blank" href="http://www.codemash.org/" id="vlsz"&gt;http://www.codemash.org/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h3&gt;Groovy, Baby&lt;/h3&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Groovy, Grails and Gaelyk&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Groovy 1.7&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://docs.codehaus.org/display/GROOVY/Groovy+1.7+release+notes" target="_blank" href="http://docs.codehaus.org/display/GROOVY/Groovy+1.7+release+notes" id="uwzr"&gt;http://docs.codehaus.org/display/GROOVY/Groovy+1.7+release+notes&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Grails 1.2&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.grails.org/blog/admin/Grails+1.2+Released" target="_blank" href="http://www.grails.org/blog/admin/Grails+1.2+Released" id="slqk"&gt;http://www.grails.org/blog/admin/Grails+1.2+Released&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Gaelyk&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.theserverside.com/news/thread.tss?thread_id=59101" target="_blank" href="http://www.theserverside.com/news/thread.tss?thread_id=59101" id="jjc4"&gt;http://www.theserverside.com/news/thread.tss?thread_id=59101&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h3&gt;Quick News&lt;/h3&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Metro 2.0 has been released&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="https://metro.dev.java.net/" target="_blank" href="https://metro.dev.java.net/" id="sz.c"&gt;https://metro.dev.java.net/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;ul&gt;&lt;li&gt;RedHat has released HornetQ 2.0.0 GA&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://jboss.org/hornetq/" target="_blank" href="http://jboss.org/hornetq/" id="bf-o"&gt;http://jboss.org/hornetq/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;ul&gt;&lt;li&gt;Sun has released Java 6 SE U18&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.developer.com/java/other/article.php/3858751/article.htm" target="_blank" href="http://www.developer.com/java/other/article.php/3858751/article.htm" id="uxtp"&gt;http://www.developer.com/java/other/article.php/3858751/article.htm&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;ul&gt;&lt;li&gt;DataNucleus has released version 2.0 of AccessPlatform&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.theserverside.com/news/thread.tss?thread_id=59201" target="_blank" href="http://www.theserverside.com/news/thread.tss?thread_id=59201" id="fmkb"&gt;http://www.theserverside.com/news/thread.tss?thread_id=59201&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.datanucleus.org/project/download.html" target="_blank" href="http://www.datanucleus.org/project/download.html" id="ics1"&gt;http://www.datanucleus.org/project/download.html&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;SpringSource has now released version 3.0 GA of Spring&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.theserverside.com/news/thread.tss?thread_id=58985" target="_blank" href="http://www.theserverside.com/news/thread.tss?thread_id=58985" id="bevt"&gt;http://www.theserverside.com/news/thread.tss?thread_id=58985&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://javaposse.com/index.php?post_id=449043" target="_blank" href="http://javaposse.com/index.php?post_id=449043" id="wtho"&gt;http://javaposse.com/index.php?post_id=449043&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;ul&gt;&lt;li&gt;SpringSource has also released version 1.0.0 GA of Spring Roo&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.springsource.org/roo" target="_blank" href="http://www.springsource.org/roo" id="g_-7"&gt;http://www.springsource.org/roo&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Google has released the final 1.0 version of the Google Collections Library&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://code.google.com/p/google-collections/" target="_blank" href="http://code.google.com/p/google-collections/" id="q7qp"&gt;http://code.google.com/p/google-collections/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size="3"&gt;Listener Feedback&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size="3"&gt;&lt;br/&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;London Scala Users Group&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.meetup.com/london-scala/" target="_blank" href="http://www.meetup.com/london-scala/" id="zql5"&gt;http://www.meetup.com/london-scala/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;ul&gt;&lt;li&gt;Stock Exchanges Running Scala&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.cinnober.com/whom" target="_blank" href="http://www.cinnober.com/whom" id="jq49"&gt;http://www.cinnober.com/whom&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.cinnober.com/files/A_Cinnober_whitepaper_on_latency_Oct2009_0.pdf" target="_blank" href="http://www.cinnober.com/files/A_Cinnober_whitepaper_on_latency_Oct2009_0.pdf" id="ru:z"&gt;http://www.cinnober.com/files/A_Cinnober_whitepaper_on_latency_Oct2009_0.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;ul&gt;&lt;li&gt;GeeCON - Java conference in Poland&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.geecon.org" target="_blank" href="http://www.geecon.org/" id="xtkf"&gt;http://www.geecon.org&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Last year's: &lt;a rel="nofollow" title="http://2009.geecon.org" target="_blank" href="http://2009.geecon.org/" id="d:1b"&gt;http://2009.geecon.org&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;ul&gt;&lt;li&gt;ESDC Conference&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.go-esdc.com/" target="_blank" href="http://www.go-esdc.com/" id="o65f"&gt;http://www.go-esdc.com/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Atlanta DevNexus 2010 Conference - AJUG&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.devnexus.com/" target="_blank" href="http://www.devnexus.com/" id="ybx2"&gt;http://www.devnexus.com/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;h3 id="r98d10"&gt; Thanks
+&lt;/h3&gt;
+&lt;ul id="r98d11"&gt;&lt;li id="r98d12"&gt; Libsyn.com - &lt;a rel="nofollow" id="r98d13" target="_blank" href="http://www.libsyn.com/"&gt;http://www.libsyn.com&lt;/a&gt; - for hosting and bandwidth &lt;/li&gt;&lt;li id="r98d14"&gt;Feedburner.com - &lt;a rel="nofollow" id="r98d18" target="_blank" href="http://www.feedburner.com/"&gt;http://www.feedburner.com&lt;/a&gt; - for feed redirect&lt;/li&gt;&lt;li id="r98d19"&gt; &lt;a rel="nofollow" title="Kirsty Doherty" id="r98d20" target="_blank" href="http://www.flowerthepa.co.uk/"&gt;Kirsty Doherty&lt;/a&gt;,&amp;nbsp;&lt;a rel="nofollow" title="Amy Ehmann" id="r98d22" target="_blank" href="http://designlotus.com/"&gt;Amy Ehmann&lt;/a&gt; for Java Posse artwork &lt;/li&gt;&lt;li id="h-gd"&gt;Theme Music:&lt;/li&gt;&lt;ul id="r98d33"&gt;&lt;li id="iaam"&gt;Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI),&lt;/li&gt;&lt;ul&gt;&lt;li&gt;written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney.&lt;/li&gt;&lt;li&gt;Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad.&lt;/li&gt;&lt;li&gt;Re-produced with kind permission from "Loose" Bruce Kerr - &lt;a rel="nofollow" title="http://loosebrucekerr.libsyn.com" id="r98d32" target="_blank" href="http://loosebrucekerr.libsyn.com/"&gt;http://loosebrucekerr.libsyn.com&lt;/a&gt;&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://www.youtube.com/watch?v=TAX0gJt-aZg"&gt;http://www.youtube.com/watch?v=TAX0gJt-aZg&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li id="r98d34"&gt;Closing - Juan Carlos Jimenez - In the House (Intro No. 1)&lt;br id="r98d35"/&gt; &lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt; &lt;ul id="r98d36"&gt;&lt;li id="r98d37"&gt; To contact us: &lt;ul id="r98d38"&gt;&lt;li id="r98d39"&gt; Visit our homepage - &lt;a rel="nofollow" id="r98d40" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt; &lt;/li&gt;&lt;li id="x1gp"&gt; Post on our Google Group - &lt;a rel="nofollow" title="http://groups.google.com/group/javaposse" id="r98d42" target="_blank" href="http://groups.google.com/group/javaposse"&gt;http://groups.google.com/group/javaposse&lt;/a&gt;&lt;/li&gt;&lt;li id="howv"&gt;Pose a question on our Google Moderator group - &lt;a rel="nofollow" id="gl3y" target="_blank" href="http://tinyurl.com/q4javaposse" title="http://tinyurl.com/q4javaposse"&gt;http://tinyurl.com/q4javaposse&lt;/a&gt; &lt;br/&gt;&lt;/li&gt;&lt;li id="r98d43"&gt; Call us with questions and feedback - (408) 465-4626 &lt;/li&gt;&lt;li id="r98d44"&gt; Or send us email - &lt;a rel="nofollow" id="r98d45" target="_blank" href="https://mail.google.com/mail?view=cm&amp;tf=0&amp;to=//javaposse@gmail.com/"&gt;javaposse@gmail.com&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt; The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall&lt;br id="ja2k"/&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/javaposse?a=7FfmEO-CGEY:0mHobWI9f7U:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/javaposse?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+         <guid isPermaLink="false">http://javaposse.com/index.php?post_id=573666#</guid>
+         <pubDate>Sat, 23 Jan 2010 10:24:00 -0800</pubDate>
+         <category>podcasts</category>
+         <enclosure length="74226289" url="http://media.libsyn.com/media/dickwall/JavaPosse294.mp3" type="audio/mpeg" />
+      <author>javaposse@gmail.com (Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall)</author><media:content url="http://media.libsyn.com/media/dickwall/JavaPosse294.mp3" fileSize="74226289" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>Newscast for January 21st 2010 Fully formatted shownotes can always be found at http://javaposse.com Please, join us for the Java Posse Roundup, March 16th to 19th in Crested Butte, CO, with a free JVM languages day on the 15th. To find out more:http://ww</itunes:subtitle><itunes:author>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:author><itunes:summary>Newscast for January 21st 2010 Fully formatted shownotes can always be found at http://javaposse.com Please, join us for the Java Posse Roundup, March 16th to 19th in Crested Butte, CO, with a free JVM languages day on the 15th. To find out more:http://www.mindviewinc.com/Conferences/JavaPosseRoundup/ To sign up:http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at:http://tinyurl.com/jproundup2010 Android rounduphttp://lifehacker.com/5443156/android-21s-best-features-in-screenshotshttp://developer.android.com/index.htmlhttp://www.computerworld.com/s/article/9143027/ Demand_for_Android_phones_makes_monstrous_250_jumphttp://gizmodo.com/5427938/how-carriers-and-phone-makers-are- strangling-android-and-how-google-could-save-it?skyline=true&amp;amp;s=xhttp://java.dzone.com/dose/dzone-daily-dose-119 The JavaFX Composer has been releasedhttp://wiki.netbeans.org/JavaFXComposerhttp://www.adam-bien.com/roller/abien/entry/java_fx_composer_designer_for1 Machinarium - flash gamehttp://machinarium.net The EU looks close to approving the Oracle acquisition of Sunhttp://java.dzone.com/dose/dzone-daily-dose-116http://en.wikipedia.org/wiki/Michael_Wideniushttp://weblogs.java.net/blog/editor/archive/2010/01/01/ poll-result-oracle-acquisition-sun-most-significant-2009http://weblogs.java.net/blog/editor/archive/2009/12/23/ speculations-2010-part-1-oracle-and-sunhttp://www.oracle.com/us/corporate/press/043821 Is Maven the last choice?http://kent.spillner.org/blog/work/2009/11/14/java-build-tools.html Codemashhttp://www.codemash.org/ Groovy, BabyGroovy, Grails and GaelykGroovy 1.7http://docs.codehaus.org/display/GROOVY/Groovy+1.7+release+notes Grails 1.2http://www.grails.org/blog/admin/Grails+1.2+Released Gaelykhttp://www.theserverside.com/news/thread.tss?thread_id=59101 Quick NewsMetro 2.0 has been releasedhttps://metro.dev.java.net/ RedHat has released HornetQ 2.0.0 GAhttp://jboss.org/hornetq/ Sun has released Java 6 SE U18http://www.developer.com/java/other/article.php/3858751/article.htm DataNucleus has released version 2.0 of AccessPlatformhttp://www.theserverside.com/news/thread.tss?thread_id=59201http://www.datanucleus.org/project/download.html SpringSource has now released version 3.0 GA of Springhttp://www.theserverside.com/news/thread.tss?thread_id=58985http://javaposse.com/index.php?post_id=449043 SpringSource has also released version 1.0.0 GA of Spring Roohttp://www.springsource.org/roo Google has released the final 1.0 version of the Google Collections Libraryhttp://code.google.com/p/google-collections/ Listener Feedback London Scala Users Grouphttp://www.meetup.com/london-scala/ Stock Exchanges Running Scalahttp://www.cinnober.com/whomhttp://www.cinnober.com/files/A_Cinnober_whitepaper_on_latency_Oct2009_0.pdf GeeCON - Java conference in Polandhttp://www.geecon.orgLast year's: http://2009.geecon.org ESDC Conferencehttp://www.go-esdc.com/ Atlanta DevNexus 2010 Conference - AJUGhttp://www.devnexus.com/ Thanks Libsyn.com - http://www.libsyn.com - for hosting and bandwidth Feedburner.com - http://www.feedburner.com - for feed redirect Kirsty Doherty,&amp;nbsp;Amy Ehmann for Java Posse artwork Theme Music:Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI),written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney.Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad.Re-produced with kind permission from "Loose" Bruce Kerr - http://loosebrucekerr.libsyn.com&amp;nbsp;http://www.youtube.com/watch?v=TAX0gJt-aZg Closing - Juan Carlos Jimenez - In the House (Intro No. 1) To contact us: Visit our homepage - http://javaposse.com Post on our Google Group - http://groups.google.com/group/javapossePose a question on our Google Moderator group - http://tinyurl.com/q4javaposse Call us with questions and feedbac</itunes:summary><itunes:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</itunes:keywords></item>
+      <item>
+         <title>Java Posse #293 - Codemash 2010 Panel</title>
+         <link>http://javaposse.com/index.php?post_id=572478#</link>
+         <description>&lt;div&gt;&lt;h2 id="r98d0"&gt;Codemash 2010 Panel&lt;br/&gt;&lt;/h2&gt; Fully formatted shownotes can always be found at &lt;a rel="nofollow" title="http://javaposse.com" id="r98d3" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;A
+panel session recorded at Codemash 2010, with Barry Hawkins moderating,
+Joe, Carl and Dick participating for the Java Posse, and Bill Wagner
+and Chris Smith joining us for a perspective from the .NET world.&lt;br/&gt;&lt;br/&gt;&lt;div&gt;Please,
+join us for the next Java Posse Roundup, March 16th to 19th in Crested
+Butte, CO, with a free JVM languages day on the 15th.&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;To find out more:&lt;/div&gt;&lt;a rel="nofollow" id="t7:3" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/&lt;/a&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;To sign up:&lt;/div&gt;&lt;a rel="nofollow" id="mm96" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php&lt;/a&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at:&lt;/div&gt;&lt;a rel="nofollow" id="y.a-" target="_blank" href="http://tinyurl.com/jproundup2010" title="http://tinyurl.com/jproundup2010"&gt;http://tinyurl.com/jproundup2010&lt;/a&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Codemash 2.0.1.0&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" id="qfiz" target="_blank" href="http://www.codemash.org/" title="http://www.codemash.org/"&gt;http://www.codemash.org/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Barry Hawkins (The Moderator):&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" id="gzg5" target="_blank" href="http://www.yepthatsme.com/" title="http://www.yepthatsme.com/"&gt;http://www.yepthatsme.com/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Chris Smith - F# Guru&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" id="psdb" target="_blank" href="http://blogs.msdn.com/chrsmith/" title="http://blogs.msdn.com/chrsmith/"&gt;http://blogs.msdn.com/chrsmith/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Bill Wagner&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" id="a3mi" target="_blank" href="http://srtsolutions.com/blogs/billwagner/" title="http://srtsolutions.com/blogs/billwagner/"&gt;http://srtsolutions.com/blogs/billwagner/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Dianne Marsh&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" id="c1gu" target="_blank" href="http://srtsolutions.com/blogs/diannemarsh/" title="http://srtsolutions.com/blogs/diannemarsh/"&gt;http://srtsolutions.com/blogs/diannemarsh/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Us :-)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" id="xl_d" target="_blank" href="http://javaposse.com/" title="http://javaposse.com"&gt;http://javaposse.com&lt;/a&gt;&lt;br/&gt; &lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;h3 id="r98d10"&gt; Thanks
+&lt;/h3&gt;
+&lt;ul id="r98d11"&gt;&lt;li id="r98d12"&gt; Libsyn.com - &lt;a rel="nofollow" id="r98d13" target="_blank" href="http://www.libsyn.com/"&gt;http://www.libsyn.com&lt;/a&gt; - for hosting and bandwidth &lt;/li&gt;&lt;li id="r98d14"&gt;Feedburner.com - &lt;a rel="nofollow" id="r98d18" target="_blank" href="http://www.feedburner.com/"&gt;http://www.feedburner.com&lt;/a&gt; - for feed redirect&lt;/li&gt;&lt;li id="r98d19"&gt; &lt;a rel="nofollow" title="Kirsty Doherty" id="r98d20" target="_blank" href="http://www.flowerthepa.co.uk/"&gt;Kirsty Doherty&lt;/a&gt;,&amp;nbsp;&lt;a rel="nofollow" title="Amy Ehmann" id="r98d22" target="_blank" href="http://designlotus.com/"&gt;Amy Ehmann&lt;/a&gt; for Java Posse artwork &lt;/li&gt;&lt;li id="h-gd"&gt;Theme Music:&lt;/li&gt;&lt;ul id="r98d33"&gt;&lt;li id="iaam"&gt;Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI),&lt;/li&gt;&lt;ul&gt;&lt;li&gt;written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney.&lt;/li&gt;&lt;li&gt;Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad.&lt;/li&gt;&lt;li&gt;Re-produced with kind permission from "Loose" Bruce Kerr - &lt;a rel="nofollow" title="http://loosebrucekerr.libsyn.com" id="r98d32" target="_blank" href="http://loosebrucekerr.libsyn.com/"&gt;http://loosebrucekerr.libsyn.com&lt;/a&gt;&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://www.youtube.com/watch?v=TAX0gJt-aZg"&gt;http://www.youtube.com/watch?v=TAX0gJt-aZg&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li id="r98d34"&gt;Closing - Juan Carlos Jimenez - In the House (Intro No. 1)&lt;br id="r98d35"/&gt; &lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt; &lt;ul id="r98d36"&gt;&lt;li id="r98d37"&gt; To contact us: &lt;ul id="r98d38"&gt;&lt;li id="r98d39"&gt; Visit our homepage - &lt;a rel="nofollow" id="r98d40" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt; &lt;/li&gt;&lt;li id="x1gp"&gt; Post on our Google Group - &lt;a rel="nofollow" title="http://groups.google.com/group/javaposse" id="r98d42" target="_blank" href="http://groups.google.com/group/javaposse"&gt;http://groups.google.com/group/javaposse&lt;/a&gt;&lt;/li&gt;&lt;li id="howv"&gt;Pose a question on our Google Moderator group - &lt;a rel="nofollow" id="gl3y" target="_blank" href="http://tinyurl.com/q4javaposse" title="http://tinyurl.com/q4javaposse"&gt;http://tinyurl.com/q4javaposse&lt;/a&gt; &lt;br/&gt;&lt;/li&gt;&lt;li id="r98d43"&gt; Call us with questions and feedback - (408) 465-4626 &lt;/li&gt;&lt;li id="r98d44"&gt; Or send us email - &lt;a rel="nofollow" id="r98d45" target="_blank" href="https://mail.google.com/mail?view=cm&amp;tf=0&amp;to=//javaposse@gmail.com/"&gt;javaposse@gmail.com&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt; &lt;/li&gt;&lt;/ul&gt; The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall&lt;br id="ja2k"/&gt;&lt;/div&gt;&lt;br/&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/javaposse?a=KFzZGz9Kh6I:ot2rqmnIbw8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/javaposse?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+         <guid isPermaLink="false">http://javaposse.com/index.php?post_id=572478#</guid>
+         <pubDate>Tue, 19 Jan 2010 20:39:00 -0800</pubDate>
+         <category>podcasts</category>
+         <enclosure length="73917570" url="http://media.libsyn.com/media/dickwall/JavaPosse293.mp3" type="audio/mpeg" />
+      <author>javaposse@gmail.com (Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall)</author><media:content url="http://media.libsyn.com/media/dickwall/JavaPosse293.mp3" fileSize="73917570" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>Codemash 2010 Panel Fully formatted shownotes can always be found at http://javaposse.com A panel session recorded at Codemash 2010, with Barry Hawkins moderating, Joe, Carl and Dick participating for the Java Posse, and Bill Wagner and Chris Smith joinin</itunes:subtitle><itunes:author>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:author><itunes:summary>Codemash 2010 Panel Fully formatted shownotes can always be found at http://javaposse.com A panel session recorded at Codemash 2010, with Barry Hawkins moderating, Joe, Carl and Dick participating for the Java Posse, and Bill Wagner and Chris Smith joining us for a perspective from the .NET world. Please, join us for the next Java Posse Roundup, March 16th to 19th in Crested Butte, CO, with a free JVM languages day on the 15th. To find out more:http://www.mindviewinc.com/Conferences/JavaPosseRoundup/ To sign up:http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at:http://tinyurl.com/jproundup2010 Codemash 2.0.1.0http://www.codemash.org/ Barry Hawkins (The Moderator):http://www.yepthatsme.com/ Chris Smith - F# Guruhttp://blogs.msdn.com/chrsmith/ Bill Wagnerhttp://srtsolutions.com/blogs/billwagner/ Dianne Marshhttp://srtsolutions.com/blogs/diannemarsh/ Us :-)http://javaposse.com Thanks Libsyn.com - http://www.libsyn.com - for hosting and bandwidth Feedburner.com - http://www.feedburner.com - for feed redirect Kirsty Doherty,&amp;nbsp;Amy Ehmann for Java Posse artwork Theme Music:Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI),written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney.Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad.Re-produced with kind permission from "Loose" Bruce Kerr - http://loosebrucekerr.libsyn.com&amp;nbsp;http://www.youtube.com/watch?v=TAX0gJt-aZg Closing - Juan Carlos Jimenez - In the House (Intro No. 1) To contact us: Visit our homepage - http://javaposse.com Post on our Google Group - http://groups.google.com/group/javapossePose a question on our Google Moderator group - http://tinyurl.com/q4javaposse Call us with questions and feedback - (408) 465-4626 Or send us email - javaposse@gmail.com The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall </itunes:summary><itunes:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</itunes:keywords></item>
+      <item>
+         <title>Java Posse #292 - Roundup 09 - Automated Testing and Refactoring</title>
+         <link>http://javaposse.com/index.php?post_id=570162#</link>
+         <description>&lt;div&gt;&lt;h2 id="r98d0"&gt;Automated Testing and Refactoring&lt;br/&gt;&lt;/h2&gt; Fully formatted shownotes can always be found at &lt;a rel="nofollow" title="http://javaposse.com" id="r98d3" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;Recorded
+at the Java Posse Roundup 2009 in Crested Butte, CO. A Discussion about
+the automated generation of tests, and code refactoring.&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;Please,
+join us for the next Java Posse Roundup, March 16th to 19th in Crested
+Butte, CO, with a free JVM languages day on the 15th.&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;To find out more:&lt;/div&gt;&lt;a rel="nofollow" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/" id="t7:3"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/&lt;/a&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;To sign up:&lt;/div&gt;&lt;a rel="nofollow" title="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php" target="_blank" href="http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php" id="mm96"&gt;http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php&lt;/a&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at:&lt;/div&gt;&lt;a rel="nofollow" title="http://tinyurl.com/jproundup2010" target="_blank" href="http://tinyurl.com/jproundup2010" id="y.a-"&gt;http://tinyurl.com/jproundup2010&lt;/a&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;XUnit/JUnit&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://en.wikipedia.org/wiki/XUnit" target="_blank" href="http://en.wikipedia.org/wiki/XUnit" id="qvk:"&gt;http://en.wikipedia.org/wiki/XUnit&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.junit.org/" target="_blank" href="http://www.junit.org/" id="hrgq"&gt;http://www.junit.org/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Integration testing&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://en.wikipedia.org/wiki/Integration_testing" target="_blank" href="http://en.wikipedia.org/wiki/Integration_testing" id="gs6n"&gt;http://en.wikipedia.org/wiki/Integration_testing&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Code coverage&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://en.wikipedia.org/wiki/Code_coverage" target="_blank" href="http://en.wikipedia.org/wiki/Code_coverage" id="t8yy"&gt;http://en.wikipedia.org/wiki/Code_coverage&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Static analysis, Findbugs, PMD, etc.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://findbugs.sourceforge.net/" target="_blank" href="http://findbugs.sourceforge.net/" id="x17v"&gt;http://findbugs.sourceforge.net/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://pmd.sourceforge.net/" target="_blank" href="http://pmd.sourceforge.net/" id="u5lq"&gt;http://pmd.sourceforge.net/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Clover 2 tag clouds, etc.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.atlassian.com/software/clover/tour/" target="_blank" href="http://www.atlassian.com/software/clover/tour/" id="m5_d"&gt;http://www.atlassian.com/software/clover/tour/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Hudson/Maven&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="https://hudson.dev.java.net/" target="_blank" href="https://hudson.dev.java.net/" id="g:ls"&gt;https://hudson.dev.java.net/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://maven.apache.org/" target="_blank" href="http://maven.apache.org/" id="k75p"&gt;http://maven.apache.org/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Artifactory&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.jfrog.org/products.php" target="_blank" href="http://www.jfrog.org/products.php" id="rh1a"&gt;http://www.jfrog.org/products.php&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Classes being loaded (from PermGen)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.brokenbuild.com/blog/2006/08/04/java-jvm-gc-permgen-and-memory-options/" target="_blank" href="http://www.brokenbuild.com/blog/2006/08/04/java-jvm-gc-permgen-and-memory-options/" id="d-qa"&gt;http://www.brokenbuild.com/blog/2006/08/04/java-jvm-gc-permgen-and-memory-options/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;NetBeans Profiler&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://profiler.netbeans.org/" target="_blank" href="http://profiler.netbeans.org/" id="tkb4"&gt;http://profiler.netbeans.org/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Mock objects&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://en.wikipedia.org/wiki/Mock_object" target="_blank" href="http://en.wikipedia.org/wiki/Mock_object" id="x_n_"&gt;http://en.wikipedia.org/wiki/Mock_object&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.jmock.org/" target="_blank" href="http://www.jmock.org/" id="awmj"&gt;http://www.jmock.org/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://easymock.org/" target="_blank" href="http://easymock.org/" id="a6:h"&gt;http://easymock.org/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;JMeter&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://jakarta.apache.org/jmeter/" target="_blank" href="http://jakarta.apache.org/jmeter/" id="oag0"&gt;http://jakarta.apache.org/jmeter/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Concurrency testing&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.theserverside.com/tt/knowledgecenter/knowledgecenter.tss?l=ConcurrencyTestingJavaApps" target="_blank" href="http://www.theserverside.com/tt/knowledgecenter/knowledgecenter.tss?l=ConcurrencyTestingJavaApps" id="aj_n"&gt;http://www.theserverside.com/tt/knowledgecenter/knowledgecenter.tss?l=ConcurrencyTestingJavaApps&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Azul - Debug JVM with extra thread checks&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.azulsystems.com/e2e/" target="_blank" href="http://www.azulsystems.com/e2e/" id="y-3c"&gt;http://www.azulsystems.com/e2e/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Selenium&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://seleniumhq.org/" target="_blank" href="http://seleniumhq.org/" id="zgbn"&gt;http://seleniumhq.org/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Silk&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.borland.com/us/products/silk/silktest/index.html" target="_blank" href="http://www.borland.com/us/products/silk/silktest/index.html" id="emxp"&gt;http://www.borland.com/us/products/silk/silktest/index.html&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;TestRunner (now called Testopia)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="https://wiki.mozilla.org/Testopia" target="_blank" href="https://wiki.mozilla.org/Testopia" id="lp1q"&gt;https://wiki.mozilla.org/Testopia&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;IMVU multi-user chat&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://imvu.com/" target="_blank" href="http://imvu.com/" id="tyv6"&gt;http://imvu.com/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;SLF4J - Simple Logging for Java&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.slf4j.org/" target="_blank" href="http://www.slf4j.org/" id="fu25"&gt;http://www.slf4j.org/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;h3 id="r98d10"&gt; Thanks
+&lt;/h3&gt;
+&lt;ul id="r98d11"&gt;&lt;li id="r98d12"&gt; Libsyn.com - &lt;a rel="nofollow" id="r98d13" target="_blank" href="http://www.libsyn.com/"&gt;http://www.libsyn.com&lt;/a&gt; - for hosting and bandwidth &lt;/li&gt;&lt;li id="r98d14"&gt;Feedburner.com - &lt;a rel="nofollow" id="r98d18" target="_blank" href="http://www.feedburner.com/"&gt;http://www.feedburner.com&lt;/a&gt; - for feed redirect&lt;/li&gt;&lt;li id="r98d19"&gt; &lt;a rel="nofollow" title="Kirsty Doherty" id="r98d20" target="_blank" href="http://www.flowerthepa.co.uk/"&gt;Kirsty Doherty&lt;/a&gt;,&amp;nbsp;&lt;a rel="nofollow" title="Amy Ehmann" id="r98d22" target="_blank" href="http://designlotus.com/"&gt;Amy Ehmann&lt;/a&gt; for Java Posse artwork &lt;/li&gt;&lt;li id="h-gd"&gt;Theme Music:&lt;/li&gt;&lt;ul id="r98d33"&gt;&lt;li id="iaam"&gt;Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI),&lt;/li&gt;&lt;ul&gt;&lt;li&gt;written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney.&lt;/li&gt;&lt;li&gt;Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad.&lt;/li&gt;&lt;li&gt;Re-produced with kind permission from "Loose" Bruce Kerr - &lt;a rel="nofollow" title="http://loosebrucekerr.libsyn.com" id="r98d32" target="_blank" href="http://loosebrucekerr.libsyn.com/"&gt;http://loosebrucekerr.libsyn.com&lt;/a&gt;&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://www.youtube.com/watch?v=TAX0gJt-aZg"&gt;http://www.youtube.com/watch?v=TAX0gJt-aZg&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li id="r98d34"&gt;Closing - Juan Carlos Jimenez - In the House (Intro No. 1)&lt;br id="r98d35"/&gt; &lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt; &lt;ul id="r98d36"&gt;&lt;li id="r98d37"&gt; To contact us: &lt;ul id="r98d38"&gt;&lt;li id="r98d39"&gt; Visit our homepage - &lt;a rel="nofollow" id="r98d40" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt; &lt;/li&gt;&lt;li id="x1gp"&gt; Post on our Google Group - &lt;a rel="nofollow" title="http://groups.google.com/group/javaposse" id="r98d42" target="_blank" href="http://groups.google.com/group/javaposse"&gt;http://groups.google.com/group/javaposse&lt;/a&gt;&lt;/li&gt;&lt;li id="howv"&gt;Pose a question on our Google Moderator group - &lt;a rel="nofollow" id="gl3y" target="_blank" href="http://tinyurl.com/q4javaposse" title="http://tinyurl.com/q4javaposse"&gt;http://tinyurl.com/q4javaposse&lt;/a&gt; &lt;br/&gt;&lt;/li&gt;&lt;li id="r98d43"&gt; Call us with questions and feedback - (408) 465-4626 &lt;/li&gt;&lt;li id="r98d44"&gt; Or send us email - &lt;a rel="nofollow" id="r98d45" target="_blank" href="https://mail.google.com/mail?view=cm&amp;tf=0&amp;to=//javaposse@gmail.com/"&gt;javaposse@gmail.com&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt; &lt;/li&gt;&lt;/ul&gt; The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall&lt;br/&gt;
+&lt;br id="ja2k"/&gt;&lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/javaposse?a=UPXFwxQ-buU:EvNt9AZ2NHo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/javaposse?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+         <guid isPermaLink="false">http://javaposse.com/index.php?post_id=570162#</guid>
+         <pubDate>Wed, 13 Jan 2010 15:30:00 -0800</pubDate>
+         <category>podcasts</category>
+         <enclosure length="42972132" url="http://media.libsyn.com/media/dickwall/JavaPosse292.mp3" type="audio/mpeg" />
+      <author>javaposse@gmail.com (Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall)</author><media:content url="http://media.libsyn.com/media/dickwall/JavaPosse292.mp3" fileSize="42972132" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>Automated Testing and Refactoring Fully formatted shownotes can always be found at http://javaposse.com Recorded at the Java Posse Roundup 2009 in Crested Butte, CO. A Discussion about the automated generation of tests, and code refactoring. Please, join </itunes:subtitle><itunes:author>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:author><itunes:summary>Automated Testing and Refactoring Fully formatted shownotes can always be found at http://javaposse.com Recorded at the Java Posse Roundup 2009 in Crested Butte, CO. A Discussion about the automated generation of tests, and code refactoring. Please, join us for the next Java Posse Roundup, March 16th to 19th in Crested Butte, CO, with a free JVM languages day on the 15th. To find out more:http://www.mindviewinc.com/Conferences/JavaPosseRoundup/ To sign up:http://www.mindviewinc.com/Conferences/JavaPosseRoundup/register.php And if you do sign up, please give us a little more information about yourself (like your T-shirt size - hint hint) at:http://tinyurl.com/jproundup2010XUnit/JUnithttp://en.wikipedia.org/wiki/XUnithttp://www.junit.org/ Integration testinghttp://en.wikipedia.org/wiki/Integration_testing Code coveragehttp://en.wikipedia.org/wiki/Code_coverage Static analysis, Findbugs, PMD, etc.http://findbugs.sourceforge.net/http://pmd.sourceforge.net/ Clover 2 tag clouds, etc.http://www.atlassian.com/software/clover/tour/ Hudson/Mavenhttps://hudson.dev.java.net/http://maven.apache.org/ Artifactoryhttp://www.jfrog.org/products.php Classes being loaded (from PermGen)http://www.brokenbuild.com/blog/2006/08/04/java-jvm-gc-permgen-and-memory-options/ NetBeans Profilerhttp://profiler.netbeans.org/ Mock objectshttp://en.wikipedia.org/wiki/Mock_objecthttp://www.jmock.org/http://easymock.org/ JMeterhttp://jakarta.apache.org/jmeter/ Concurrency testinghttp://www.theserverside.com/tt/knowledgecenter/knowledgecenter.tss?l=ConcurrencyTestingJavaApps Azul - Debug JVM with extra thread checkshttp://www.azulsystems.com/e2e/ Seleniumhttp://seleniumhq.org/ Silkhttp://www.borland.com/us/products/silk/silktest/index.html TestRunner (now called Testopia)https://wiki.mozilla.org/Testopia IMVU multi-user chathttp://imvu.com/ SLF4J - Simple Logging for Javahttp://www.slf4j.org/ Thanks Libsyn.com - http://www.libsyn.com - for hosting and bandwidth Feedburner.com - http://www.feedburner.com - for feed redirect Kirsty Doherty,&amp;nbsp;Amy Ehmann for Java Posse artwork Theme Music:Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI),written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney.Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad.Re-produced with kind permission from "Loose" Bruce Kerr - http://loosebrucekerr.libsyn.com&amp;nbsp;http://www.youtube.com/watch?v=TAX0gJt-aZg Closing - Juan Carlos Jimenez - In the House (Intro No. 1) To contact us: Visit our homepage - http://javaposse.com Post on our Google Group - http://groups.google.com/group/javapossePose a question on our Google Moderator group - http://tinyurl.com/q4javaposse Call us with questions and feedback - (408) 465-4626 Or send us email - javaposse@gmail.com The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall </itunes:summary><itunes:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</itunes:keywords></item>
+      <item>
+         <title>Java Posse #291 - Holiday Special</title>
+         <link>http://javaposse.com/index.php?post_id=566004#</link>
+         <description>&lt;div&gt;&lt;h2 id="r98d0"&gt;Holiday Special 2009/2010&lt;br/&gt; &lt;/h2&gt; Fully formatted shownotes can always be found at &lt;a rel="nofollow" title="http://javaposse.com" id="r98d3" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt;
+&lt;/div&gt;
+&lt;div&gt; &lt;br/&gt;
+&lt;/div&gt;&lt;div&gt;Java Posse Roundup 2010 - Crested Butte, CO from March 16th
+to 19th with programming languages day on the 15th. The topic this year
+is "Best Practices".&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;a rel="nofollow" title="http://tinyurl.com/jproundup2010" target="_blank" href="http://tinyurl.com/jproundup2010" id="rw79"&gt;http://tinyurl.com/jproundup2010&lt;/a&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Groovy 1.7 released&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://docs.codehaus.org/display/GROOVY/Groovy+1.7+release+notes" target="_blank" href="http://docs.codehaus.org/display/GROOVY/Groovy+1.7+release+notes" id="enat"&gt;http://docs.codehaus.org/display/GROOVY/Groovy+1.7+release+notes&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;And Grails 1.2 release too&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://grails.org/blog/admin/Grails+1.2+Released" target="_blank" href="http://grails.org/blog/admin/Grails+1.2+Released" id="i7fq"&gt;http://grails.org/blog/admin/Grails+1.2+Released&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt; &lt;ul&gt;&lt;li&gt; Scala hoodie, from the Scala shop&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.scala-lang.org/shop" target="_blank" href="http://www.scala-lang.org/shop" id="ywt-"&gt;http://www.scala-lang.org/shop&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt; Headphones and amp &lt;/li&gt;&lt;ul&gt;&lt;li&gt;Total Bithead -&amp;nbsp;&lt;a rel="nofollow" title="http://www.headphone.com/headphone-amps/amplifiers/headroom-total-bithead.php" target="_blank" href="http://www.headphone.com/headphone-amps/amplifiers/headroom-total-bithead.php" id="vcz0"&gt;http://www.headphone.com/headphone-amps/amplifiers/headroom-total-bithead.php&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Grado SR80i -&amp;nbsp;&lt;a rel="nofollow" title="http://www.headphone.com/headphones/grado-sr-80i.php" target="_blank" href="http://www.headphone.com/headphones/grado-sr-80i.php" id="wan1"&gt;http://www.headphone.com/headphones/grado-sr-80i.php&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt; Latest Stephen King book - under the dome &lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.amazon.com/Under-Dome-Novel-Stephen-King/dp/1439148503/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1262482377&amp;sr=8-1" target="_blank" href="http://www.amazon.com/Under-Dome-Novel-Stephen-King/dp/1439148503/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1262482377&amp;sr=8-1" id="p0c7"&gt;http://www.amazon.com/Under-Dome-Novel-Stephen-King/dp/1439148503/ref=sr_1_1?ie=UTF8&amp;amp;s=books&amp;amp;qid=1262482377&amp;amp;sr=8-1&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Kindle for iPhone -&amp;nbsp;&lt;a rel="nofollow" title="http://www.amazon.com/gp/feature.html?ie=UTF8&amp;docId=1000301301" target="_blank" href="http://www.amazon.com/gp/feature.html?ie=UTF8&amp;docId=1000301301" id="ntin"&gt;http://www.amazon.com/gp/feature.html?ie=UTF8&amp;amp;docId=1000301301&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Barnes and Noble Nook -&amp;nbsp;&lt;a rel="nofollow" title="http://www.barnesandnoble.com/nook/features/" target="_blank" href="http://www.barnesandnoble.com/nook/features/" id="dwuc"&gt;http://www.barnesandnoble.com/nook/features/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Macbook Pro&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.apple.com/macbookpro/" target="_blank" href="http://www.apple.com/macbookpro/" id="zmkc"&gt;http://www.apple.com/macbookpro/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;New Apple remote&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://store.apple.com/us/product/MC377LL/A" target="_blank" href="http://store.apple.com/us/product/MC377LL/A" id="s5ef"&gt;http://store.apple.com/us/product/MC377LL/A&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Magic Mouse&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://store.apple.com/us/product/MB829?mco=MTY0MjUwNjQ" target="_blank" href="http://store.apple.com/us/product/MB829?mco=MTY0MjUwNjQ" id="wyy8"&gt;http://store.apple.com/us/product/MB829?mco=MTY0MjUwNjQ&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;The Greatest Show on Earth (Richard Dawkins)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.amazon.com/Greatest-Show-Earth-Evidence-Evolution/dp/1416594787/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1262483707&amp;sr=1-1" target="_blank" href="http://www.amazon.com/Greatest-Show-Earth-Evidence-Evolution/dp/1416594787/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1262483707&amp;sr=1-1" id="dmfl"&gt;http://www.amazon.com/Greatest-Show-Earth-Evidence-Evolution/dp/1416594787/ref=sr_1_1?ie=UTF8&amp;amp;s=books&amp;amp;qid=1262483707&amp;amp;sr=1-1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Rock Crawler R/C&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.rcrockcrawling.com/" target="_blank" href="http://www.rcrockcrawling.com/" id="wd0."&gt;http://www.rcrockcrawling.com/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Assassin's Creed II&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://assassinscreed.us.ubi.com/assassins-creed-2/" target="_blank" href="http://assassinscreed.us.ubi.com/assassins-creed-2/" id="p2c6"&gt;http://assassinscreed.us.ubi.com/assassins-creed-2/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;NetHack&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.nethack.org/" target="_blank" href="http://www.nethack.org/" id="mtkd"&gt;http://www.nethack.org/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Ratchet &amp;amp; Clank&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.ratchetandclank.com/" target="_blank" href="http://www.ratchetandclank.com/" id="nw.j"&gt;http://www.ratchetandclank.com/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Stieg Larsson's last book&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.stieglarsson.com/Millennium-series" target="_blank" href="http://www.stieglarsson.com/Millennium-series" id="r93b"&gt;http://www.stieglarsson.com/Millennium-series&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Blu-rays: Up and StarTrek&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.amazon.com/Disc-Combo-Pack-Digital-Blu-ray/dp/B001KVZ6G6/ref=sr_1_3?ie=UTF8&amp;s=dvd&amp;qid=1262484022&amp;sr=8-3" target="_blank" href="http://www.amazon.com/Disc-Combo-Pack-Digital-Blu-ray/dp/B001KVZ6G6/ref=sr_1_3?ie=UTF8&amp;s=dvd&amp;qid=1262484022&amp;sr=8-3" id="ai-."&gt;http://www.amazon.com/Disc-Combo-Pack-Digital-Blu-ray/dp/B001KVZ6G6/ref=sr_1_3?ie=UTF8&amp;amp;s=dvd&amp;amp;qid=1262484022&amp;amp;sr=8-3&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.amazon.com/Star-Trek-Three-Disc-Blu-ray-Chris/dp/B001AVCFK6/ref=sr_1_3?ie=UTF8&amp;s=dvd&amp;qid=1262484046&amp;sr=1-3" target="_blank" href="http://www.amazon.com/Star-Trek-Three-Disc-Blu-ray-Chris/dp/B001AVCFK6/ref=sr_1_3?ie=UTF8&amp;s=dvd&amp;qid=1262484046&amp;sr=1-3" id="x7c-"&gt;http://www.amazon.com/Star-Trek-Three-Disc-Blu-ray-Chris/dp/B001AVCFK6/ref=sr_1_3?ie=UTF8&amp;amp;s=dvd&amp;amp;qid=1262484046&amp;amp;sr=1-3&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Uncharted 2&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.unchartedthegame.com/U2AT/" target="_blank" href="http://www.unchartedthegame.com/U2AT/" id="fuqr"&gt;http://www.unchartedthegame.com/U2AT/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;&lt;li&gt;Codemash coming up!&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://www.codemash.org/" target="_blank" href="http://www.codemash.org/" id="dbsr"&gt;http://www.codemash.org/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;A completely open source Android/Apps stack?&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://code.google.com/p/open-android-alliance/" target="_blank" href="http://code.google.com/p/open-android-alliance/" id="x53l"&gt;http://code.google.com/p/open-android-alliance/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Netbooks and chrome OS&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://dev.chromium.org/chromium-os" target="_blank" href="http://dev.chromium.org/chromium-os" id="kmzm"&gt;http://dev.chromium.org/chromium-os&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Will NetBeans survive the Oracle transition?&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://netbeans.org/" target="_blank" href="http://netbeans.org/" id="konb"&gt;http://netbeans.org/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Will Apple tablet (iSlate) will give Netbooks and and Kindle a serious run for their money?&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" title="http://gizmodo.com/5434566/the-exhaustive-guide-to-apple-tablet-rumors" target="_blank" href="http://gizmodo.com/5434566/the-exhaustive-guide-to-apple-tablet-rumors" id="lhnm"&gt;http://gizmodo.com/5434566/the-exhaustive-guide-to-apple-tablet-rumors&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3&gt;Thanks&lt;/h3&gt;&lt;div&gt; &lt;ul id="r98d11"&gt;&lt;li id="r98d12"&gt; Libsyn.com - &lt;a rel="nofollow" id="r98d13" target="_blank" href="http://www.libsyn.com/"&gt;http://www.libsyn.com&lt;/a&gt; - for hosting and bandwidth &lt;/li&gt;&lt;li id="r98d14"&gt; Feedburner.com - &lt;a rel="nofollow" id="r98d18" target="_blank" href="http://www.feedburner.com/"&gt;http://www.feedburner.com&lt;/a&gt; - for feed redirect &lt;/li&gt;&lt;li id="r98d19"&gt; &lt;a rel="nofollow" title="Kirsty Doherty" id="r98d20" target="_blank" href="http://www.flowerthepa.co.uk/"&gt;Kirsty Doherty&lt;/a&gt;,&amp;nbsp;&lt;a rel="nofollow" title="Amy Ehmann" id="r98d22" target="_blank" href="http://designlotus.com/"&gt;Amy Ehmann&lt;/a&gt; for Java Posse artwork &lt;/li&gt;&lt;li id="h-gd"&gt; Theme Music: &lt;/li&gt;&lt;ul id="r98d33"&gt;&lt;li id="iaam"&gt; Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), &lt;/li&gt;&lt;ul&gt;&lt;li&gt; written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney. &lt;/li&gt;&lt;li&gt; Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad. &lt;/li&gt;&lt;li&gt; Re-produced with kind permission from "Loose" Bruce Kerr - &lt;a rel="nofollow" title="http://loosebrucekerr.libsyn.com" id="r98d32" target="_blank" href="http://loosebrucekerr.libsyn.com/"&gt;http://loosebrucekerr.libsyn.com&lt;/a&gt;&amp;nbsp;&lt;a rel="nofollow" target="_blank" href="http://www.youtube.com/watch?v=TAX0gJt-aZg"&gt;http://www.youtube.com/watch?v=TAX0gJt-aZg&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt;
+&lt;li id="r98d34"&gt; Closing - Juan Carlos Jimenez - In the House (Intro No. 1)&lt;br id="r98d35"/&gt; &lt;/li&gt;&lt;/ul&gt;
+&lt;/ul&gt; &lt;ul id="r98d36"&gt;&lt;li id="r98d37"&gt; To contact us: &lt;ul id="r98d38"&gt;&lt;li id="r98d39"&gt; Visit our homepage - &lt;a rel="nofollow" id="r98d40" target="_blank" href="http://javaposse.com/"&gt;http://javaposse.com&lt;/a&gt; &lt;/li&gt;&lt;li id="x1gp"&gt; Post on our Google Group - &lt;a rel="nofollow" title="http://groups.google.com/group/javaposse" id="r98d42" target="_blank" href="http://groups.google.com/group/javaposse"&gt;http://groups.google.com/group/javaposse&lt;/a&gt; &lt;/li&gt;&lt;li id="howv"&gt; Pose a question on our Google Moderator group - &lt;a rel="nofollow" title="http://tinyurl.com/q4javaposse" id="gl3y" target="_blank" href="http://tinyurl.com/q4javaposse"&gt;http://tinyurl.com/q4javaposse&lt;/a&gt;&lt;br/&gt; &lt;/li&gt;&lt;li id="r98d43"&gt; Call us with questions and feedback - (408) 465-4626 &lt;/li&gt;&lt;li id="r98d44"&gt; Or send us email - &lt;a rel="nofollow" id="r98d45" target="_blank" href="https://mail.google.com/mail?view=cm&amp;tf=0&amp;to=//javaposse@gmail.com/"&gt;javaposse@gmail.com&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt; &lt;/li&gt;&lt;/ul&gt; The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall&lt;br id="ja2k"/&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/javaposse?a=G2TP-OHBp3c:Z8DDO7FT04I:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/javaposse?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+         <guid isPermaLink="false">http://javaposse.com/index.php?post_id=566004#</guid>
+         <pubDate>Sat, 02 Jan 2010 18:36:00 -0800</pubDate>
+         <category>podcasts</category>
+         <enclosure length="94215424" url="http://media.libsyn.com/media/dickwall/JavaPosse291.mp3" type="audio/mpeg" />
+      <author>javaposse@gmail.com (Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall)</author><media:content url="http://media.libsyn.com/media/dickwall/JavaPosse291.mp3" fileSize="94215424" type="audio/mpeg" /><itunes:explicit>no</itunes:explicit><itunes:subtitle>Holiday Special 2009/2010 Fully formatted shownotes can always be found at http://javaposse.com Java Posse Roundup 2010 - Crested Butte, CO from March 16th to 19th with programming languages day on the 15th. The topic this year is "Best Practices".&amp;nbsp;h</itunes:subtitle><itunes:author>Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</itunes:author><itunes:summary>Holiday Special 2009/2010 Fully formatted shownotes can always be found at http://javaposse.com Java Posse Roundup 2010 - Crested Butte, CO from March 16th to 19th with programming languages day on the 15th. The topic this year is "Best Practices".&amp;nbsp;http://tinyurl.com/jproundup2010&amp;nbsp;Groovy 1.7 releasedhttp://docs.codehaus.org/display/GROOVY/Groovy+1.7+release+notes And Grails 1.2 release toohttp://grails.org/blog/admin/Grails+1.2+Released Scala hoodie, from the Scala shophttp://www.scala-lang.org/shop Headphones and amp Total Bithead -&amp;nbsp;http://www.headphone.com/headphone-amps/amplifiers/headroom-total-bithead.phpGrado SR80i -&amp;nbsp;http://www.headphone.com/headphones/grado-sr-80i.php Latest Stephen King book - under the dome http://www.amazon.com/Under-Dome-Novel-Stephen-King/dp/1439148503/ref=sr_1_1?ie=UTF8&amp;amp;s=books&amp;amp;qid=1262482377&amp;amp;sr=8-1Kindle for iPhone -&amp;nbsp;http://www.amazon.com/gp/feature.html?ie=UTF8&amp;amp;docId=1000301301Barnes and Noble Nook -&amp;nbsp;http://www.barnesandnoble.com/nook/features/ Macbook Prohttp://www.apple.com/macbookpro/ New Apple remotehttp://store.apple.com/us/product/MC377LL/A Magic Mousehttp://store.apple.com/us/product/MB829?mco=MTY0MjUwNjQ The Greatest Show on Earth (Richard Dawkins)http://www.amazon.com/Greatest-Show-Earth-Evidence-Evolution/dp/1416594787/ref=sr_1_1?ie=UTF8&amp;amp;s=books&amp;amp;qid=1262483707&amp;amp;sr=1-1 Rock Crawler R/Chttp://www.rcrockcrawling.com/ Assassin's Creed IIhttp://assassinscreed.us.ubi.com/assassins-creed-2/NetHackhttp://www.nethack.org/ Ratchet &amp;amp; Clankhttp://www.ratchetandclank.com/ Stieg Larsson's last bookhttp://www.stieglarsson.com/Millennium-series Blu-rays: Up and StarTrekhttp://www.amazon.com/Disc-Combo-Pack-Digital-Blu-ray/dp/B001KVZ6G6/ref=sr_1_3?ie=UTF8&amp;amp;s=dvd&amp;amp;qid=1262484022&amp;amp;sr=8-3http://www.amazon.com/Star-Trek-Three-Disc-Blu-ray-Chris/dp/B001AVCFK6/ref=sr_1_3?ie=UTF8&amp;amp;s=dvd&amp;amp;qid=1262484046&amp;amp;sr=1-3 Uncharted 2http://www.unchartedthegame.com/U2AT/ Codemash coming up!http://www.codemash.org/ A completely open source Android/Apps stack?http://code.google.com/p/open-android-alliance/ Netbooks and chrome OShttp://dev.chromium.org/chromium-os Will NetBeans survive the Oracle transition?http://netbeans.org/ Will Apple tablet (iSlate) will give Netbooks and and Kindle a serious run for their money?http://gizmodo.com/5434566/the-exhaustive-guide-to-apple-tablet-rumors Thanks Libsyn.com - http://www.libsyn.com - for hosting and bandwidth Feedburner.com - http://www.feedburner.com - for feed redirect Kirsty Doherty,&amp;nbsp;Amy Ehmann for Java Posse artwork Theme Music: Opening - "Java" the parody song Copyright 1997 Broken Records and Marjorie Music Publ. (BMI), written and performed by Loose Bruce Kerr of the Dr. Demento Show and Sun Microsystems attorney. Based on the WWI popular song, "Ja-da." Ukelele style on the recording taught to Bruce by his dad. Re-produced with kind permission from "Loose" Bruce Kerr - http://loosebrucekerr.libsyn.com&amp;nbsp;http://www.youtube.com/watch?v=TAX0gJt-aZg Closing - Juan Carlos Jimenez - In the House (Intro No. 1) To contact us: Visit our homepage - http://javaposse.com Post on our Google Group - http://groups.google.com/group/javaposse Pose a question on our Google Moderator group - http://tinyurl.com/q4javaposse Call us with questions and feedback - (408) 465-4626 Or send us email - javaposse@gmail.com The Java Posse consists of Tor Norbye, Carl Quinn, Joe Nuxoll and Dick Wall </itunes:summary><itunes:keywords>Java,JavaCast,Posse,Dick,Wall,Tor,Norbye,Carl,Quinn,Joe,Nuxoll,Technology,News,Interviews,Developers</itunes:keywords></item>
+   <language>en-us</language><copyright>Copyright - Creative Commons</copyright><media:credit role="author">Tor Norbye, Carl Quinn, Joe Nuxoll, Dick Wall</media:credit><media:rating>nonadult</media:rating></channel>
+</rss><!-- fe3.pipes.sp1.yahoo.com uncompressed/chunked Thu Apr 22 11:18:31 PDT 2010 -->
