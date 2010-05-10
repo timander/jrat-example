@@ -23,7 +23,7 @@ java -jar shiftone-jrat-1-alpha2.jar
 ###########################################
 Execute code with JRat
 -------------------------------------------
-mvn exec:java -Dexec.mainClass="net.timandersen.App" -Dexec.classpathScope=test -Djrat.timing.nanoseconds=true -Djrat.factory="org.shiftone.jrat.provider.tree.TreeMethodHandlerFactory"
+mvn exec:java -Dexec.mainClass="net.timandersen.employee.App" -Dexec.classpathScope=test -Djrat.timing.nanoseconds=true -Djrat.factory="org.shiftone.jrat.provider.tree.TreeMethodHandlerFactory"
 
 ###########################################
 JRat documentation for alternative handlers

@@ -1,4 +1,4 @@
-package net.timandersen;
+package net.timandersen.employee;
 
 import org.junit.Assert;
 import org.springframework.context.ApplicationContext;

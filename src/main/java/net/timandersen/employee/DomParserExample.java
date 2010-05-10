@@ -1,4 +1,4 @@
-package net.timandersen;
+package net.timandersen.employee;
 
 
 import org.w3c.dom.Document;

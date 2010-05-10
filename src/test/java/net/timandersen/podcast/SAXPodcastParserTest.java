@@ -1,9 +1,9 @@
-package net.timandersen;
+package net.timandersen.podcast;
 
 import junit.framework.TestCase;
+import net.timandersen.Main;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 
@@ -15,7 +15,7 @@ public class SAXPodcastParserTest extends TestCase {
         SAXPodcastParser parser = new SAXPodcastParser();
         parser.runExample();
         assertEquals(212, parser.getPodcasts().size());
-        ApplicationContext context = new ClassPathXmlApplicationContext("classpath*:spring/application-context.xml");
+        ApplicationContext context = Main.getContext();
 
         PodcastRepository podcastRepository = (PodcastRepository) context.getBean("podcastRepository");
         podcastRepository.saveOrUpdateAll(parser.getPodcasts());

@@ -5,15 +5,15 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="net.timandersen.Podcast" table="Podcasts" lazy="false">
+    <class name="net.timandersen.podcast.Podcast" table="Podcasts" lazy="false">
 
         <id name="id" column="PodcastId" access="field" unsaved-value="-1">
             <generator class="native"/>
         </id>
 
         <property name="title" column="Title" type="string" not-null="true" length="500" access="field"/>
-        <property name="description" column="Description" type="string" not-null="true" length="1000" access="field"/>
-        <property name="author" column="Author" type="string" not-null="true" length="50" access="field"/>
+        <property name="description" column="Description" type="string" not-null="true" length="2000" access="field"/>
+        <property name="author" column="Author" type="string" not-null="true" length="500" access="field"/>
         <property name="link" column="Link" type="string" not-null="true" length="500" access="field"/>
         <property name="date" column="PublishDate" type="string" not-null="true" length="100" access="field"/>
 

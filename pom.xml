@@ -47,6 +47,11 @@
             <artifactId>hibernate</artifactId>
             <version>3.2.7.ga</version>
         </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>1.7.2</version>
+        </dependency>
 
         <dependency>
             <groupId>junit</groupId>
@@ -83,7 +88,7 @@
                     <archive>
                         <index>true</index>
                         <manifest>
-                            <mainClass>net.timandersen.App</mainClass>
+                            <mainClass>net.timandersen.employee.App</mainClass>
                             <packageName>net.timandersen</packageName>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>

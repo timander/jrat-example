@@ -5,7 +5,7 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="net.timandersen.Employee" table="Employees" lazy="false">
+    <class name="net.timandersen.employee.Employee" table="Employees" lazy="false">
 
         <id name="employeeId" column="EmployeeId" access="field" unsaved-value="-1">
             <generator class="native"/>

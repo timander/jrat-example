@@ -32,11 +32,11 @@
         </property>
     </bean>
 
-    <bean id="employeeRepository" class="net.timandersen.EmployeeRepository">
+    <bean id="employeeRepository" class="net.timandersen.employee.EmployeeRepository">
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
-    <bean id="podcastRepository" class="net.timandersen.PodcastRepository">
+    <bean id="podcastRepository" class="net.timandersen.podcast.PodcastRepository">
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 

@@ -1,4 +1,4 @@
-package net.timandersen;
+package net.timandersen.employee;
 
 public class Employee {
 

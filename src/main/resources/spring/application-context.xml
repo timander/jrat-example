@@ -5,7 +5,7 @@
 
     <import resource="hibernate-context.xml"/>
 
-    <bean id="domParser" class="net.timandersen.DomParserExample"/>
-    <bean id="saxParser" class="net.timandersen.SAXParserExample"/>
+    <bean id="domParser" class="net.timandersen.employee.DomParserExample"/>
+    <bean id="saxParser" class="net.timandersen.employee.SAXParserExample"/>
 
 </beans>

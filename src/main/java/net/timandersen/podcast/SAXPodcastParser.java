@@ -1,4 +1,4 @@
-package net.timandersen;
+package net.timandersen.podcast;
 
 
 import org.xml.sax.Attributes;
@@ -10,13 +10,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class SAXParserExample {
+public class SAXPodcastParser {
 
-    private List<Employee> employees;
+    private List<Podcast> podcasts;
     private SaxHandler delegate;
 
-    public SAXParserExample() {
-        employees = new ArrayList<Employee>();
+    public SAXPodcastParser() {
+        podcasts = new ArrayList<Podcast>();
         delegate = new SaxHandler();
     }
 
@@ -27,7 +27,7 @@ public class SAXParserExample {
 
     private void parseDocument() {
         try {
-            InputStream inputStream = getClass().getClassLoader().getResourceAsStream("employees.xml");
+            InputStream inputStream = getClass().getClassLoader().getResourceAsStream("astronomycast.xml");
             SAXParserFactory.newInstance().newSAXParser().parse(inputStream, delegate);
             if (inputStream != null) inputStream.close();
         }
@@ -37,29 +37,29 @@ public class SAXParserExample {
     }
 
     private void printData() {
-        System.out.println("No of Employees '" + employees.size() + "'.");
-        for (Employee employee : employees) {
-            System.out.println(employee.toString());
+        System.out.println("No of Episodes '" + podcasts.size() + "'.");
+        for (Podcast podcast : podcasts) {
+            System.out.println(podcast.toString());
         }
     }
 
-    public List<Employee> getEmployees() {
-        return new ArrayList<Employee>(employees);
+    public List<Podcast> getPodcasts() {
+        return new ArrayList<Podcast>(podcasts);
     }
 
     private class SaxHandler extends DefaultHandler {
 
         private String value;
-        private Employee employee;
+        private Podcast podcast;
 
         @Override
         public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
             //reset
             value = "";
-            if ("Employee".equalsIgnoreCase(qName)) {
-                //create a new instance of employee
-                employee = new Employee();
-                employee.setType(attributes.getValue("type"));
+            if ("item".equalsIgnoreCase(qName)) {
+                //create a new instance of podcast
+                //String title, String link, String description, String date, String author
+                podcast = new Podcast();
             }
         }
 
@@ -70,16 +70,15 @@ public class SAXParserExample {
 
         @Override
         public void endElement(String uri, String localName, String qName) throws SAXException {
-            if ("Employee".equalsIgnoreCase(qName)) employees.add(employee);
-            if ("Name".equalsIgnoreCase(qName)) employee.setName(value);
-            if ("Id".equalsIgnoreCase(qName)) employee.setEmployeeNumber(Integer.parseInt(value));
-            if ("Age".equalsIgnoreCase(qName)) employee.setAge(Integer.parseInt(value));
+            if (podcast == null) podcast = new Podcast();
+            if ("item".equalsIgnoreCase(qName)) podcasts.add(podcast);
+            if ("title".equalsIgnoreCase(qName)) podcast.setTitle(value);
+            if ("link".equalsIgnoreCase(qName)) podcast.setLink(value);
+            if ("description".equalsIgnoreCase(qName)) podcast.setDescription(value);
+            if ("pubDate".equalsIgnoreCase(qName)) podcast.setDate(value);
+            if ("author".equalsIgnoreCase(qName)) podcast.setAuthor(value);
         }
 
     }
 
 }
-
-
-
-

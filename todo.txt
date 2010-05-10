@@ -1,0 +1,6 @@
+select parser by using main args
+Scala parser
+JRuby parser
+Groovy parser
+use Hibernate without XML
+use Spring without XML

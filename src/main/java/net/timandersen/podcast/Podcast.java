@@ -1,4 +1,4 @@
-package net.timandersen;
+package net.timandersen.podcast;
 
 public class Podcast {
 
@@ -63,8 +63,12 @@ public class Podcast {
     @Override
     public String toString() {
         return "Podcast{" +
-               "title='" + title + '\'' +
-               ", author='" + author + '\'' +
-               '}';
+               "\nid=" + id +
+               ", \ntitle='" + title + '\'' +
+               ", \nlink='" + link + '\'' +
+               ", \ndescription='" + description + '\'' +
+               ", \ndate='" + date + '\'' +
+               ", \nauthor='" + author + '\'' +
+               '}' + "\n";
     }
 }
