@@ -1,6 +1,5 @@
 package net.timandersen.podcast
 
-import net.timandersen.GroovyPodcastParser
 import org.junit.Test
 
 class GroovyPodcastParserTest {
@@ -9,8 +8,8 @@ class GroovyPodcastParserTest {
   def void testRunExample() {
     def parser = new GroovyPodcastParser()
     parser.runExample()
-    parser.getPodcasts().each{println it}
-    //assert 212 == parser.channel.size()
+    //parser.getPodcasts().each {println it}
+    assert 212 == parser.channel.size()
   }
 
 }

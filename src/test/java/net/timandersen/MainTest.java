@@ -1,5 +1,6 @@
 package net.timandersen;
 
+import net.timandersen.podcast.Main;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;

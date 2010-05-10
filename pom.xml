@@ -52,21 +52,32 @@
             <artifactId>groovy-all</artifactId>
             <version>1.7.2</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.ximpleware</groupId>
+            <artifactId>vtd-xml</artifactId>
+            <version>2.6</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.7</version>
         </dependency>
-
         <dependency>
             <groupId>org.shiftone.jrat</groupId>
             <artifactId>shiftone-jrat</artifactId>
             <version>1-alpha2</version>
             <scope>test</scope>
         </dependency>
-
-
+        <dependency>
+            <groupId>org.codehaus.groovy.maven</groupId>
+            <artifactId>gmaven-mojo</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy.maven.runtime</groupId>
+            <artifactId>gmaven-runtime-1.6</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -99,6 +110,11 @@
                     </archive>
                     <finalName>jrat-examples</finalName>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.groovy.maven</groupId>
+                <artifactId>gmaven-plugin</artifactId>
+                <version>1.0</version>
             </plugin>
         </plugins>
     </build>

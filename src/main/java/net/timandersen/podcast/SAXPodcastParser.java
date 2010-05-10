@@ -21,11 +21,6 @@ public class SAXPodcastParser {
     }
 
     public void runExample() {
-        parseDocument();
-        printData();
-    }
-
-    private void parseDocument() {
         try {
             InputStream inputStream = getClass().getClassLoader().getResourceAsStream("astronomycast.xml");
             SAXParserFactory.newInstance().newSAXParser().parse(inputStream, delegate);
@@ -36,19 +31,11 @@ public class SAXPodcastParser {
         }
     }
 
-    private void printData() {
-        System.out.println("No of Episodes '" + podcasts.size() + "'.");
-        for (Podcast podcast : podcasts) {
-            System.out.println(podcast.toString());
-        }
-    }
-
     public List<Podcast> getPodcasts() {
         return new ArrayList<Podcast>(podcasts);
     }
 
     private class SaxHandler extends DefaultHandler {
-
         private String value;
         private Podcast podcast;
 
@@ -57,8 +44,6 @@ public class SAXPodcastParser {
             //reset
             value = "";
             if ("item".equalsIgnoreCase(qName)) {
-                //create a new instance of podcast
-                //String title, String link, String description, String date, String author
                 podcast = new Podcast();
             }
         }

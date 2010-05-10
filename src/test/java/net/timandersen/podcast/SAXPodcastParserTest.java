@@ -1,7 +1,7 @@
 package net.timandersen.podcast;
 
 import junit.framework.TestCase;
-import net.timandersen.Main;
+import net.timandersen.podcast.Main;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;

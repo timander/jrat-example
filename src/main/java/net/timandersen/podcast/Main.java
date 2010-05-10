@@ -1,8 +1,5 @@
-package net.timandersen;
+package net.timandersen.podcast;
 
-import net.timandersen.podcast.Podcast;
-import net.timandersen.podcast.PodcastRepository;
-import net.timandersen.podcast.SAXPodcastParser;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.util.Collection;
@@ -24,7 +21,13 @@ public class Main {
             SAXPodcastParser parser = new SAXPodcastParser();
             parser.runExample();
             podcasts = parser.getPodcasts();
-        }else if ("groovy".equals(args[0])) {
+        }
+        if ("vtd".equals(args[0])) {
+            VtdPodcastParser parser = new VtdPodcastParser();
+            parser.runExample();
+            podcasts = parser.getPodcasts();
+        }
+        else if ("groovy".equals(args[0])) {
             GroovyPodcastParser parser = new GroovyPodcastParser();
             parser.runExample();
             podcasts = (List<Podcast>) parser.getPodcasts();

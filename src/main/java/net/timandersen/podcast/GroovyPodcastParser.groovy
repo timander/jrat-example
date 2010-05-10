@@ -1,6 +1,4 @@
-package net.timandersen
-
-import net.timandersen.podcast.Podcast
+package net.timandersen.podcast
 
 class GroovyPodcastParser {
 
