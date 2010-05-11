@@ -10,6 +10,7 @@ import static org.junit.Assert.*;
 
 
 public class MainTest {
+
     private JdbcTemplate jdbcTemplate;
 
     @Before
@@ -23,25 +24,40 @@ public class MainTest {
     @Test
     public void testRunSax() {
         Main.main(new String[]{"sax"});
-        int countOfPodcasts = jdbcTemplate.queryForInt("select count(*) from Podcasts");
-        assertEquals(212L, (long) countOfPodcasts);
+        assertCount(212L);
+    }
+
+    @Test
+    public void testRunDom() {
+        Main.main(new String[]{"dom"});
+        assertCount(212L);
+    }
+
+    @Test
+    public void testRunVtd() {
+        Main.main(new String[]{"vtd"});
+        assertCount(212L);
     }
 
     @Test
     public void testRunGroovy() {
         Main.main(new String[]{"groovy"});
-        int countOfPodcasts = jdbcTemplate.queryForInt("select count(*) from Podcasts");
-        assertEquals(212L, (long) countOfPodcasts);
+        assertCount(212L);
     }
 
     @Test
-    public void testRunWithNoArgs() {
+    public void testRunInvalid() {
         try {
-            Main.main(new String[]{});
+            Main.main(new String[]{"invalid"});
         }
         catch (Exception e) {
-            assertEquals("valid parsers are sax, groovy", e.getMessage());
+            assertEquals("valid parsers are [dom, sax, vtd, groovy]", e.getMessage());
         }
+    }
+
+    private void assertCount(long count) {
+        int countOfPodcasts = jdbcTemplate.queryForInt("select count(*) from Podcasts");
+        assertEquals(count, (long) countOfPodcasts);
     }
 
 }
