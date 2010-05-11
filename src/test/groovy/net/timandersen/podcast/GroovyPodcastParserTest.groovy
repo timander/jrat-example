@@ -7,9 +7,9 @@ class GroovyPodcastParserTest {
   @Test
   def void testRunExample() {
     def parser = new GroovyPodcastParser()
-    parser.runExample()
+    def podcasts = parser.parse()
     //parser.getPodcasts().each {println it}
-    assert 212 == parser.channel.size()
+    assert 212 == podcasts.size()
   }
 
 }

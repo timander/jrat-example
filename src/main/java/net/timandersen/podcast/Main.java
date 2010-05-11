@@ -19,18 +19,15 @@ public class Main {
 
         if ("sax".equals(args[0])) {
             SAXPodcastParser parser = new SAXPodcastParser();
-            parser.runExample();
-            podcasts = parser.getPodcasts();
+            podcasts = parser.parse();
         }
         if ("vtd".equals(args[0])) {
             VtdPodcastParser parser = new VtdPodcastParser();
-            parser.runExample();
-            podcasts = parser.getPodcasts();
+            podcasts = parser.parse();
         }
         else if ("groovy".equals(args[0])) {
             GroovyPodcastParser parser = new GroovyPodcastParser();
-            parser.runExample();
-            podcasts = (List<Podcast>) parser.getPodcasts();
+            podcasts = parser.parse();
         }
         else {
             throw new RuntimeException("valid parsers are dom, sax, groovy");

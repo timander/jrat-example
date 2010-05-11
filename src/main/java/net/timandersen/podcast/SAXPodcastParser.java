@@ -7,37 +7,35 @@ import org.xml.sax.helpers.DefaultHandler;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
-public class SAXPodcastParser {
+public class SAXPodcastParser implements PodcastParser {
 
-    private List<Podcast> podcasts;
-    private SaxHandler delegate;
-
-    public SAXPodcastParser() {
-        podcasts = new ArrayList<Podcast>();
-        delegate = new SaxHandler();
-    }
-
-    public void runExample() {
+    @Override
+    public List<Podcast> parse() {
+        List<Podcast> podcasts = new ArrayList<Podcast>();
+        SaxHandler saxHandler = new SaxHandler(podcasts);
         try {
             InputStream inputStream = getClass().getClassLoader().getResourceAsStream("astronomycast.xml");
-            SAXParserFactory.newInstance().newSAXParser().parse(inputStream, delegate);
+            SAXParserFactory.newInstance().newSAXParser().parse(inputStream, saxHandler);
             if (inputStream != null) inputStream.close();
         }
         catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
-    public List<Podcast> getPodcasts() {
-        return new ArrayList<Podcast>(podcasts);
+        return Collections.unmodifiableList(podcasts);
     }
 
     private class SaxHandler extends DefaultHandler {
         private String value;
         private Podcast podcast;
+        private List<Podcast> podcasts;
+
+        private SaxHandler(List<Podcast> podcasts) {
+            this.podcasts = podcasts;
+        }
 
         @Override
         public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
@@ -62,6 +60,10 @@ public class SAXPodcastParser {
             if ("description".equalsIgnoreCase(qName)) podcast.setDescription(value);
             if ("pubDate".equalsIgnoreCase(qName)) podcast.setDate(value);
             if ("author".equalsIgnoreCase(qName)) podcast.setAuthor(value);
+        }
+
+        public List<Podcast> getPodcasts() {
+            return podcasts;
         }
 
     }

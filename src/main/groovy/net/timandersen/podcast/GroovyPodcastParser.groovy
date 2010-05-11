@@ -1,16 +1,14 @@
 package net.timandersen.podcast
 
-class GroovyPodcastParser {
+class GroovyPodcastParser implements PodcastParser{
 
-  def podcasts
+  def List<Podcast> parse() {
 
-  def void runExample() {
+    def rssData = new XmlSlurper().parse(getClass().classLoader.getResourceAsStream("astronomycast.xml"))
 
-    def atomData = new XmlSlurper().parse(getClass().classLoader.getResourceAsStream("astronomycast.xml"))
+    def podcasts = []
 
-    podcasts = []
-
-    atomData.channel.item.each {
+    rssData.channel.item.each {
       def podcast = new Podcast()
       podcast.title = it.title
       podcast.link = it.link
@@ -19,6 +17,8 @@ class GroovyPodcastParser {
       podcast.date = it.pubDate
       podcasts.add(podcast)
     }
+
+    podcasts
 
   }
 

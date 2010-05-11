@@ -6,15 +6,15 @@ import com.ximpleware.VTDNav;
 import java.io.BufferedInputStream;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
-public class VtdPodcastParser {
+public class VtdPodcastParser implements PodcastParser {
 
-    private List<Podcast> podcasts;
-
-    public void runExample() {
-        podcasts = new ArrayList<Podcast>();
+    @Override
+    public List<Podcast> parse() {
+        List<Podcast> podcasts = new ArrayList<Podcast>();
         try {
             URL resource = getClass().getClassLoader().getResource("astronomycast.xml");
             BufferedInputStream xmlContent = (BufferedInputStream) resource.getContent();
@@ -45,6 +45,7 @@ public class VtdPodcastParser {
             e.printStackTrace();
         }
 
+        return Collections.unmodifiableList(podcasts);
     }
 
 
@@ -64,7 +65,4 @@ public class VtdPodcastParser {
         return results;
     }
 
-    public List<Podcast> getPodcasts() {
-        return podcasts;
-    }
 }
